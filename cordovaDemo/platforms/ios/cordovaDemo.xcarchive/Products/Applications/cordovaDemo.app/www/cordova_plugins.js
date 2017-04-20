@@ -108,6 +108,14 @@ module.exports = [
         "merges": [
             "Contact"
         ]
+    },
+    {
+        "id": "cordova-plugin-battery-status.battery",
+        "file": "plugins/cordova-plugin-battery-status/www/battery.js",
+        "pluginId": "cordova-plugin-battery-status",
+        "clobbers": [
+            "navigator.battery"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -116,7 +124,8 @@ module.exports.metadata =
     "cordova-plugin-whitelist": "1.3.2",
     "cordova-plugin-console": "1.0.6",
     "cordova-plugin-compat": "1.1.0",
-    "cordova-plugin-contacts": "2.3.0"
+    "cordova-plugin-contacts": "2.3.0",
+    "cordova-plugin-battery-status": "1.2.3"
 };
 // BOTTOM OF METADATA
 });

@@ -57,8 +57,11 @@
 //        self.startPage = @"console.html";
         
         //通讯录操作
-        self.startPage = @"contacts.html";
+//        self.startPage = @"contacts.html";
         
+        //电池状态
+        self.startPage = @"BatteryStatue.html";
+
         
     }
     return self;

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电池状态</title>
+
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+</head>
+<body>
+
+<div style="position: absolute;top: 40px">
+
+    <input type="button" value="电池状态发生变化" onclick="BatteryStatueClik()">
+    <input type="button" value="电池电量低的监听" onclick="BatteryLowClik()">
+    <input type="button" value="电池电量满的监听" onclick="BatteryCriticalClik()">
+
+</div>
+
+<script>
+
+    function BatteryStatueClik() {
+
+        window.addEventListener("batterystatus", onBatteryStatus, false);
+
+    }
+
+      <!-- 添加监听，当电池状态发生变化的时候走这个函数-->
+
+    function onBatteryStatus(status) {
+
+        console.log("Level: " + status.level + " isPlugged: " + status.isPlugged);
+    }
+
+    <!---------------分割线----------------->
+
+    function BatteryLowClik() {
+        window.addEventListener("batterylow", onBatteryLow, false);
+    }
+
+    function onBatteryLow(status) {
+        alert("Battery Level Low " + status.level + "%");
+    }
+
+    <!---------------分割线----------------->
+
+    function BatteryCriticalClik() {
+
+        window.addEventListener("batterycritical", onBatteryCritical, false);
+
+    }
+
+    function onBatteryCritical(status) {
+        alert("Battery Level Critical " + status.level + "%\nRecharge Soon!");
+    }
+
+
+</script>
+
+</body>
+</html>

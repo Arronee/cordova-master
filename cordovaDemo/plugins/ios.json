@@ -16,6 +16,9 @@
         "cordova-plugin-contacts": {
             "CONTACTS_USAGE_DESCRIPTION": " ",
             "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
         }
     },
     "dependent_plugins": {

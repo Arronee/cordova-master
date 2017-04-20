@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		CoLMilU1kR9l9qTtHV6fv5l6IYE=
+		otkjlp5LJgiC5PoNl348s+S9X3k=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		NIwIATykM1gf2MZ35Z4nMjv2jk8=
+		LM3uuiIoFYD9RILcOWoI8SkwqcE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		ZBvyr01CrHIeqzaDEknpKwrkUMM=
+		lRuxkOSRX5Qq2MfKUIjttCVSulU=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		jsdZqAijMSdDBou9Cdibc8tOQmY=
+		+w5hPq0Mw/S5XXlQdWT1WzE7hHM=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -188,17 +188,21 @@
 		<data>
 		hYeg9zH5hCPufSL3lQ4iz/z1w5U=
 		</data>
+		<key>www/cordova/BatteryStatue.html</key>
+		<data>
+		BLycYD3vH9zKsqBX/zS5mTdMROA=
+		</data>
 		<key>www/cordova/console.html</key>
 		<data>
 		jnJeFYrapBuBIBncUusldWA29zo=
 		</data>
 		<key>www/cordova/contacts.html</key>
 		<data>
-		t7a7A5701gssNHxnawfrRDLY6cw=
+		avpeiGcT93tVc4nfPqNp0U143uM=
 		</data>
 		<key>www/cordova_plugins.js</key>
 		<data>
-		XQ9Tnp+wSIC4RTZkntd4f/sfLNk=
+		YQXlaqk2OqU1vVbvA/IlDuZL6i8=
 		</data>
 		<key>www/css/index.css</key>
 		<data>
@@ -215,6 +219,10 @@
 		<key>www/js/index.js</key>
 		<data>
 		VvGJtlwxe7yThwm8W/ULK665sIQ=
+		</data>
+		<key>www/plugins/cordova-plugin-battery-status/www/battery.js</key>
+		<data>
+		fixhZYuFr27a+/WujkTwmHcRv4Y=
 		</data>
 		<key>www/plugins/cordova-plugin-console/www/console-via-logger.js</key>
 		<data>
@@ -499,11 +507,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CoLMilU1kR9l9qTtHV6fv5l6IYE=
+			otkjlp5LJgiC5PoNl348s+S9X3k=
 			</data>
 			<key>hash2</key>
 			<data>
-			PSOOygptQ/uvC4E9ruhGaFRn7X/aUlKzHcROW5jJAP8=
+			2cNE4KBZppIuRMyBwOmUCEM2qVDz7dlcOeiY6TSzVKU=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -521,11 +529,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NIwIATykM1gf2MZ35Z4nMjv2jk8=
+			LM3uuiIoFYD9RILcOWoI8SkwqcE=
 			</data>
 			<key>hash2</key>
 			<data>
-			58LaziEiwdxhaSoOf6ENYGov/0CeQL4qDt/2SsZRsUw=
+			cInqY+L2UihhGFppz9+JAMipYUUorNJeFFAdrosURzg=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -686,11 +694,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZBvyr01CrHIeqzaDEknpKwrkUMM=
+			lRuxkOSRX5Qq2MfKUIjttCVSulU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+jJSnLOg0e1zfX2qKIBXogO0O7w4ztIDmeycgDigKj0=
+			iPyVmjcX0YL8aeXGRQSWT6frho9FJEiTNkVp4IlER38=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -708,11 +716,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jsdZqAijMSdDBou9Cdibc8tOQmY=
+			+w5hPq0Mw/S5XXlQdWT1WzE7hHM=
 			</data>
 			<key>hash2</key>
 			<data>
-			lSb40ZYTnX1A9yCayMn8oGLvwz+Sd63OzN/GnEgSINA=
+			uljLCkhMu0dj6GAzO28P8Cc+fChK5bh7OVR10hjsLSs=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -759,6 +767,17 @@
 			dfmFgVVKEylAM88S8U6sOC51nA/iWk1KrTshtEvuBmo=
 			</data>
 		</dict>
+		<key>www/cordova/BatteryStatue.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BLycYD3vH9zKsqBX/zS5mTdMROA=
+			</data>
+			<key>hash2</key>
+			<data>
+			aa/nXR6Q4c7Pnb2y5WRA1Qi1y/xSNtoY2E5K1Lmt2R8=
+			</data>
+		</dict>
 		<key>www/cordova/console.html</key>
 		<dict>
 			<key>hash</key>
@@ -774,22 +793,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t7a7A5701gssNHxnawfrRDLY6cw=
+			avpeiGcT93tVc4nfPqNp0U143uM=
 			</data>
 			<key>hash2</key>
 			<data>
-			3wN8iuCBZcHlKwqpkswBoiRZm6S3z+PWwPTMqBiFJ2k=
+			eQGVt6HOESTA15/70PHjR+FglQTEbKPlgMNtYux6rog=
 			</data>
 		</dict>
 		<key>www/cordova_plugins.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XQ9Tnp+wSIC4RTZkntd4f/sfLNk=
+			YQXlaqk2OqU1vVbvA/IlDuZL6i8=
 			</data>
 			<key>hash2</key>
 			<data>
-			TGCgCyn7WBhZ1+VRI0rbGuv1F/ICIegD26il2B8OLJo=
+			d0N9Sj/tL7C2de1GKPsrALmBkUK89doKthi0d5VVm9Y=
 			</data>
 		</dict>
 		<key>www/css/index.css</key>
@@ -834,6 +853,17 @@
 			<key>hash2</key>
 			<data>
 			shx4WO5iFkV9duAxUT81Zp+LfaixN2PdjQT2qsZzkQw=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-battery-status/www/battery.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fixhZYuFr27a+/WujkTwmHcRv4Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			RTKM9DSMzJXaT6yRXZll9nuaGgxGV7xBgWzPxjo2yns=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-console/www/console-via-logger.js</key>

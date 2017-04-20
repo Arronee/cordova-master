@@ -8,9 +8,21 @@
 </head>
 <body>
 
-<input type="button" value="选择通讯录中联系人" onclick="openContacts()" style="left: 20px;top: 40px;position: absolute">
+<div style="position: absolute;top: 40px">
+
+    <input id="openContact" type="button" value="选择通讯录中联系人" onclick="openContacts()">
+
+    <input id="creatContact" type="button" value="创建联系人" onclick="createContact()">
+
+    <input id="findContct" type="button" value="寻找联系人" onclick="findContct()">
+
+
+</div>
+
+
 <script>
 
+    <!--这是选择联系人-->
     function openContacts () {
 
         navigator.contacts.pickContact(function (contact) {
@@ -20,6 +32,48 @@
         },function (err) {
             console.log('error' +err);
         })
+
+    }
+
+    <!--这是新建联系人-->
+
+    function createContact () {
+
+        var myContact = navigator.contacts.create({"displayName":"test user"});
+
+        myContact.save(function (contact) {
+
+            console.log('the contact has created' +json.stringify(contact));
+
+        },function (err) {
+
+            console.log('error' +err);
+        });
+
+    }
+
+    <!--这是找寻联系人-->
+
+    function findContct () {
+
+        function onSuccess(contact) {
+
+            alert(' 找到=' +contact.length +'个联系人');
+        }
+
+        function onError(error) {
+
+            alert('error'+error);
+
+        }
+        var  options = new ContactFindOptions();
+        options.filter = "test user";
+        options.multiple = true;
+        options.desiredFields = [navigator.contacts.fieldType.id];
+        options.hasPhoneNumber = false;
+
+        var  fields = [navigator.contacts.fieldType.displayName,navigator.contacts.fieldType.name];
+        navigator.contacts.find(fields,onSuccess,onError,options);
 
     }
 

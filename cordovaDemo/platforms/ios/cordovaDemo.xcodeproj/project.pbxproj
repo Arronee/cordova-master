@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		136AA93A1F024904B4669B7A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395C92C8C6A24243B69B5819 /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -19,6 +18,7 @@
 		99B2A4990BA848D792C72B97 /* CDVContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AF9E9D865D412092740D8F /* CDVContacts.m */; };
 		AAB4DF92651A4C5FA98F9371 /* CDVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 65352BF460AB436BB3CFDF9F /* CDVLogger.m */; };
 		E8AC1EB3E11E483EBAF4D6FF /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7D7415DCF4E9BB3692173 /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D97B6CDD9D454AB781EEA744 /* CDVBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED5C6E9506749C8A33DB9BA /* CDVBattery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +67,8 @@
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = cordovaDemo/config.xml; sourceTree = "<group>"; };
+		8ED5C6E9506749C8A33DB9BA /* CDVBattery.m */ = {isa = PBXFileReference; name = "CDVBattery.m"; path = "cordova-plugin-battery-status/CDVBattery.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		A8E9B8E8707C40D297E250CA /* CDVBattery.h */ = {isa = PBXFileReference; name = "CDVBattery.h"; path = "cordova-plugin-battery-status/CDVBattery.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,8 @@
 				8CD2C5E951E64E1794163C4C /* CDVContact.m */,
 				A95C6BB988964305821E07EE /* CDVContacts.h */,
 				0C3EE48A6835462D9AD7A9A8 /* CDVContact.h */,
+				8ED5C6E9506749C8A33DB9BA /* CDVBattery.m */,
+				A8E9B8E8707C40D297E250CA /* CDVBattery.h */,
 			);
 			name = Plugins;
 			path = cordovaDemo/Plugins;
@@ -303,6 +307,7 @@
 				AAB4DF92651A4C5FA98F9371 /* CDVLogger.m in Sources */,
 				99B2A4990BA848D792C72B97 /* CDVContacts.m in Sources */,
 				25E885CF74E24F0988C756C5 /* CDVContact.m in Sources */,
+				D97B6CDD9D454AB781EEA744 /* CDVBattery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

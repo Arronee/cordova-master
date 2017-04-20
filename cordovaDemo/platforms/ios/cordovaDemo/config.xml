@@ -21,6 +21,9 @@
     <feature name="Contacts">
         <param name="ios-package" value="CDVContacts" />
     </feature>
+    <feature name="Battery">
+        <param name="ios-package" value="CDVBattery" />
+    </feature>
     <name>cordovaDemo</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
