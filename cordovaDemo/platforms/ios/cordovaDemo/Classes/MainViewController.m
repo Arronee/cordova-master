@@ -50,10 +50,14 @@
         // Uncomment to override the CDVCommandQueue used
         // _commandQueue = [[MainCommandQueue alloc] initWithViewController:self];
         
-        //起始页设为控制台输出
+        //存放HTML页的文件夹位置
         self.wwwFolderName = @"www/cordova";
 
-        self.startPage = @"console.html";
+        //控制台输出
+//        self.startPage = @"console.html";
+        
+        //通讯录操作
+        self.startPage = @"contacts.html";
         
         
     }
