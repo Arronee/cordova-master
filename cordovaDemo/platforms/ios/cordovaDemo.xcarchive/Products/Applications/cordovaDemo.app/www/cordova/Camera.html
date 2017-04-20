@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相机</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+
+    <script>
+        var pictureSource;
+        var destinationType;
+
+        document.addEventListener("deviceready",onDeviceReady,false);
+        function onDeviceReady() {
+            pictureSource=navigator.camera.PictureSourceType;
+            destinationType=navigator.camera.DestinationType;
+
+        }
+
+
+        function CameraClik() {
+
+            console.log('相机相机');
+            navigator.camera.getPicture(onCameraSuccess, onError, { quality: 50, destinationType: destinationType.DATA_URL });
+        }
+
+        function onCameraSuccess (imageData) {
+            console.log(imageData);
+
+        }
+
+        function onError(err) {
+
+            console.log("error" +err);
+        }
+
+    </script>
+
+</head>
+<body>
+
+<div style="position: absolute;top: 40px">
+
+    <input type="button" value="相机" onclick="CameraClik()">
+
+</div>
+
+</body>
+</html>

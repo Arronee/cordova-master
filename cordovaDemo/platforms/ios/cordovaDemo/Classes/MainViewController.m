@@ -60,8 +60,10 @@
 //        self.startPage = @"contacts.html";
         
         //电池状态
-        self.startPage = @"BatteryStatue.html";
+//        self.startPage = @"BatteryStatue.html";
 
+        //相机
+        self.startPage = @"Camera.html";
         
     }
     return self;
