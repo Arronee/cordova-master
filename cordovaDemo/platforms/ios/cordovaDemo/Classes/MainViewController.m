@@ -69,7 +69,10 @@
 //        self.startPage = @"Dialogs.html";
         
         //设备信息
-        self.startPage = @"Device.html";
+//        self.startPage = @"Device.html";
+        
+        //设备运动
+        self.startPage = @"DeviceMotion.html";
         
     }
     return self;

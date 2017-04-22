@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设备运动</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+
+</head>
+<body>
+<div style="position: absolute;top: 40px">
+
+    <input type="button" value="getCurrentAcceleration" onclick="getCurrentAcceleration()">
+    <input type="button" value="watchAcceleration" onclick="watchACC()">
+    <input type="button" value="clearWatch" onclick="clearWa()">
+
+</div>
+
+<script>
+
+    var watchID;
+    function  getCurrentAcceleration() {
+        navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
+    }
+
+    function watchACC() {
+        var options = { frequency: 3000 };  // Update every 3 seconds
+
+        watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);
+    }
+    function clearWa() {
+        navigator.accelerometer.clearWatch(watchID);
+
+    }
+    function onSuccess(acceleration) {
+        alert('Acceleration X: ' + acceleration.x + '\n' +
+                'Acceleration Y: ' + acceleration.y + '\n' +
+                'Acceleration Z: ' + acceleration.z + '\n' +
+                'Timestamp: '      + acceleration.timestamp + '\n');
+    }
+
+    function onError() {
+        alert('onError!');
+    }
+</script>
+</body>
+</html>

@@ -30,6 +30,8 @@
 		115ABD00FB364850B1964717 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D753CEAB459344088C87355F /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DC108D2048D9474F95984AC1 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FFBA935F3D4DA1BFFA812B /* CDVDevice.m */; };
 		DD1D6E5923C84899881CA981 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9713A02930ED43DD9BE68E9F /* libz.tbd */; };
+		33B3EC82EA0D4C0B9CE595D5 /* CDVAccelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = 650EC59E2E9B48A19342DE30 /* CDVAccelerometer.m */; };
+		3D9529EC618E4CEE954A9C5A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AED0E0CE76402BB3B1C267 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,9 @@
 		D7FFBA935F3D4DA1BFFA812B /* CDVDevice.m */ = {isa = PBXFileReference; name = "CDVDevice.m"; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		4131EA4A712B452198B4A8BB /* CDVDevice.h */ = {isa = PBXFileReference; name = "CDVDevice.h"; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		9713A02930ED43DD9BE68E9F /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		650EC59E2E9B48A19342DE30 /* CDVAccelerometer.m */ = {isa = PBXFileReference; name = "CDVAccelerometer.m"; path = "cordova-plugin-device-motion/CDVAccelerometer.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		818E4298584A433FA73EB189 /* CDVAccelerometer.h */ = {isa = PBXFileReference; name = "CDVAccelerometer.h"; path = "cordova-plugin-device-motion/CDVAccelerometer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B0AED0E0CE76402BB3B1C267 /* CoreMotion.framework */ = {isa = PBXFileReference; name = "CoreMotion.framework"; path = "System/Library/Frameworks/CoreMotion.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,7 @@
 				8D5385390EC34B4FA9F1C0BB /* AVFoundation.framework in Frameworks */,
 				115ABD00FB364850B1964717 /* AudioToolbox.framework in Frameworks */,
 				DD1D6E5923C84899881CA981 /* libz.tbd in Frameworks */,
+				3D9529EC618E4CEE954A9C5A /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +196,7 @@
 				25E1CD7908DC4FF49DF762B1 /* AVFoundation.framework */,
 				D753CEAB459344088C87355F /* AudioToolbox.framework */,
 				9713A02930ED43DD9BE68E9F /* libz.tbd */,
+				B0AED0E0CE76402BB3B1C267 /* CoreMotion.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -234,6 +241,8 @@
 				FEE0F6DC800B47AA9922CAE5 /* CDVNotification.h */,
 				D7FFBA935F3D4DA1BFFA812B /* CDVDevice.m */,
 				4131EA4A712B452198B4A8BB /* CDVDevice.h */,
+				650EC59E2E9B48A19342DE30 /* CDVAccelerometer.m */,
+				818E4298584A433FA73EB189 /* CDVAccelerometer.h */,
 			);
 			name = Plugins;
 			path = cordovaDemo/Plugins;
@@ -364,6 +373,7 @@
 				5ECC7306B2EA40F29CB0E18C /* CDVJpegHeaderWriter.m in Sources */,
 				21B1E7A21B4948529C3D6E90 /* CDVNotification.m in Sources */,
 				DC108D2048D9474F95984AC1 /* CDVDevice.m in Sources */,
+				33B3EC82EA0D4C0B9CE595D5 /* CDVAccelerometer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
