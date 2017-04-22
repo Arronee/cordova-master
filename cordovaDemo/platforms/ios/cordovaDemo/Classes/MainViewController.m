@@ -65,6 +65,9 @@
         //相机
         self.startPage = @"Camera.html";
         
+        //提示框
+        self.startPage = @"Dialogs.html";
+        
     }
     return self;
 }
