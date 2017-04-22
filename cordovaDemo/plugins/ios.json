@@ -33,6 +33,47 @@
         },
         "cordova-plugin-device-motion": {
             "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-geolocation": {
+            "GEOLOCATION_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-media": {
+            "MICROPHONE_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-media-capture": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "MICROPHONE_USAGE_DESCRIPTION": " ",
+            "PHOTOLIBRARY_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
         }
     },
     "dependent_plugins": {
