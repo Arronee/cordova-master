@@ -63,10 +63,13 @@
 //        self.startPage = @"BatteryStatue.html";
 
         //相机
-        self.startPage = @"Camera.html";
+//        self.startPage = @"Camera.html";
         
         //提示框
-        self.startPage = @"Dialogs.html";
+//        self.startPage = @"Dialogs.html";
+        
+        //设备信息
+        self.startPage = @"Device.html";
         
     }
     return self;
