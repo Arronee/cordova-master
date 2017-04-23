@@ -75,7 +75,10 @@
 //        self.startPage = @"DeviceMotion.html";
         
         //设备方向
-        self.startPage = @"DeviceOrientation.html";
+//        self.startPage = @"DeviceOrientation.html";
+        
+        //文件管理
+        self.startPage =  @"File.html";
         
     }
     return self;
