@@ -72,7 +72,10 @@
 //        self.startPage = @"Device.html";
         
         //设备运动
-        self.startPage = @"DeviceMotion.html";
+//        self.startPage = @"DeviceMotion.html";
+        
+        //设备方向
+        self.startPage = @"DeviceOrientation.html";
         
     }
     return self;

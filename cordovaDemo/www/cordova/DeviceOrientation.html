@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设备方向</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+
+</head>
+<body>
+
+<div  style="position: absolute;top: 40px">
+
+    <input type="button" value="getCurrentHeading" onclick="getCurrent()">
+
+    <input type="button" value="watchHeading" onclick="watchH()">
+
+    <input type="button" value="clearWatch" onclick="clearW()">
+
+</div>
+
+<script>
+    var watchID;
+    function getCurrent () {
+
+        navigator.compass.getCurrentHeading(onSuccess, onError);
+    }
+
+    function onSuccess(heading) {
+        alert('Heading: ' + heading.magneticHeading);
+    };
+
+    function onError(error) {
+        alert('CompassError: ' + error.code);
+    };
+
+////////////////////////////////////////////////////////////////////////////
+
+    function watchH() {
+        watchID  = navigator.compass.watchHeading(compassSuccess, compassError, [compassOptions]);
+
+    }
+
+
+    ///////////////////////////////////////////////////////////////////////
+
+    function clearW() {
+
+        navigator.compass.clearWatch(watchID);
+    }
+
+</script>
+</body>
+</html>

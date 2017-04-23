@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设备方向</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+
+</head>
+<body>
+
+<div>
+
+    <input type="button" value="getCurrentHeading" onclick="getCurrent()">
+</div>
+
+<script>
+
+    function getCurrent () {
+
+        navigator.compass.getCurrentHeading(onSuccess, onError);
+    }
+
+    function onSuccess(heading) {
+        alert('Heading: ' + heading.magneticHeading);
+    };
+
+    function onError(error) {
+        alert('CompassError: ' + error.code);
+    };
+</script>
+</body>
+</html>
