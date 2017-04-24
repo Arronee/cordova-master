@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浏览器</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+
+</head>
+<body>
+
+<div  style="position: absolute;top: 40px">
+
+    <input type="button" value="打开浏览器" onclick="openBrowser()">
+
+    <input type="button" value="移除监听" onclick="removeBrowser()">
+
+    <input type="button" value="关闭浏览器" onclick="closeBrowser()">
+
+</div>
+
+<script>
+
+    var ref;
+    function openBrowser() {
+
+        ref = cordova.InAppBrowser.open('https://www.baidu.com', '_blank', 'location=yes');
+
+        ref.addEventListener('loadstart', loadStartCallBack);
+
+        ref.addEventListener('loadstop', loadStopCallBack);
+
+        ref.addEventListener('loaderror', loadErrorCallBack);
+
+
+    }
+
+
+    function loadStartCallBack() {
+
+        $('#status-message').text("loading please wait ...");
+
+    }
+
+    function loadStopCallBack() {
+
+        if (inAppBrowserRef != undefined) {
+
+            inAppBrowserRef.insertCSS({ code: "body{font-size: 25px;" });
+
+            $('#status-message').text("");
+
+            inAppBrowserRef.show();
+        }
+
+    }
+
+    function loadErrorCallBack(params) {
+
+        $('#status-message').text("");
+
+        var scriptErrorMesssage =
+                "alert('Sorry we cannot open that page. Message from the server is : "
+                + params.message + "');"
+
+        inAppBrowserRef.executeScript({ code: scriptErrorMesssage }, executeScriptCallBack);
+
+        inAppBrowserRef.close();
+
+        inAppBrowserRef = undefined;
+
+    }
+
+    function executeScriptCallBack(params) {
+
+        if (params[0] == null) {
+
+            $('#status-message').text(
+                    "Sorry we couldn't open that page. Message from the server is : '"
+                    + params.message + "'");
+        }
+
+    }
+
+    function removeBrowser() {
+
+        ref.removeEventListener('loadstart', loadStartCallBack);
+
+        ref.removeEventListener('loadstop', loadStopCallBack);
+
+        ref.removeEventListener('loaderror', loadErrorCallBack);
+
+    }
+
+    function closeBrowser() {
+
+        ref.close();
+    }
+
+</script>
+</body>
+</html>

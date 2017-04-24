@@ -1,48 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>相机</title>
+    <meta charset="utf-8">
+    <title>Capture Photo</title>
+
     <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
-
-    <script>
-        var pictureSource;
-        var destinationType;
-
-        document.addEventListener("deviceready",onDeviceReady,false);
-        function onDeviceReady() {
-            pictureSource=navigator.camera.PictureSourceType;
-            destinationType=navigator.camera.DestinationType;
-
-        }
-
-
-        function CameraClik() {
-
-            console.log('相机相机');
-            navigator.camera.getPicture(onCameraSuccess, onError, { quality: 50, destinationType: destinationType.DATA_URL });
-        }
-
-        function onCameraSuccess (imageData) {
-            console.log(imageData);
-
-        }
-
-        function onError(err) {
-
-            console.log("error" +err);
-        }
-
-    </script>
 
 </head>
 <body>
+<input type="button" value="调相机 不可编辑" onclick="capturePhoto();" style=" position: absolute;top: 30px;left: 40px;width: 100px;height: 40px" >
+<input type="button" value="调相机 可编辑" onclick="capturePhotoEdit();" style=" position: absolute;top: 80px;left: 40px;width: 100px;height: 40px" >
+<input type="button" value="调相册 列表" onclick="getPhoto(pictureSource.PHOTOLIBRARY);" style=" position: absolute;top: 130px;left: 40px;width: 100px;height: 40px" >
+<input type="button" value="调相册" onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);" style=" position: absolute;top: 180px;left: 40px;width: 100px;height: 40px" >
+<img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+<img style="display:none;" id="largeImage" src="" />
 
-<div style="position: absolute;top: 40px">
+<script type="text/javascript" charset="utf-8">
 
-    <input type="button" value="相机" onclick="CameraClik()">
+    var pictureSource;
+    var destinationType;
 
-</div>
+    document.addEventListener("deviceready",onDeviceReady,false);
 
+    function onDeviceReady() {
+        pictureSource=navigator.camera.PictureSourceType;
+        destinationType=navigator.camera.DestinationType;
+    }
+
+    function onPhotoDataSuccess(imageData) {
+        console.log(imageData);
+        var smallImage = document.getElementById('smallImage');
+        smallImage.style.display = 'block';
+        smallImage.src = "data:image/jpeg;base64," + imageData;
+    }
+
+    function onPhotoURISuccess(imageURI) {
+        console.log(imageURI);
+        var largeImage = document.getElementById('largeImage');
+        largeImage.style.display = 'block';
+        largeImage.src = imageURI;
+    }
+
+    function capturePhoto() {
+        navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50, destinationType: destinationType.DATA_URL });
+    }
+
+    function capturePhotoEdit() {
+        navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 20, allowEdit: true, destinationType: destinationType.DATA_URL });
+
+
+    }
+
+    function getPhoto(source) {
+        navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50, destinationType: destinationType.FILE_URI, sourceType: source });
+    }
+
+    function onFail(message) {
+        alert('Failed because: ' + message);
+
+
+    }
+
+</script>
 </body>
 </html>

@@ -90,7 +90,10 @@
 //        self.startPage = @"Inappbrowser.html";
         
         //网络状态
-        self.startPage = @"NetworkInformation.html";
+//        self.startPage = @"NetworkInformation.html";
+        
+        //震动
+        self.startPage = @"Vibration.html";
         
     }
     return self;
