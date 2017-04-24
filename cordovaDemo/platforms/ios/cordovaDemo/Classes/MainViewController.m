@@ -84,7 +84,10 @@
 //        self.startPage = @"Geolocation.html";
         
         //国际化
-        self.startPage =  @"Globalozation.html";
+//        self.startPage =  @"Globalozation.html";
+        
+        //浏览器
+        self.startPage = @"Inappbrowser.html";
         
     }
     return self;
