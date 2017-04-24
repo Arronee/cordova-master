@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+
+</head>
+<body>
+
+<div style="position: absolute;top: 40px">
+
+    <input type="button" value="定位" onclick="locationClik()">
+
+    <input type="button" value="固定时间定位" onclick="locationTimeClik()">
+
+    <input type="button" value="清除固定时间定位" onclick="clearTimeClik()">
+
+</div>
+
+<script>
+
+    function locationClik() {
+
+        navigator.geolocation.getCurrentPosition(onSuccess, onError);
+
+    }
+
+
+    // onSuccess Callback
+    // This method accepts a Position object, which contains the
+    // current GPS coordinates
+    //
+    var onSuccess = function(position) {
+        alert('Latitude: '          + position.coords.latitude          + '\n' +
+                'Longitude: '         + position.coords.longitude         + '\n' +
+                'Altitude: '          + position.coords.altitude          + '\n' +
+                'Accuracy: '          + position.coords.accuracy          + '\n' +
+                'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+                'Heading: '           + position.coords.heading           + '\n' +
+                'Speed: '             + position.coords.speed             + '\n' +
+                'Timestamp: '         + position.timestamp                + '\n');
+    };
+
+    // onError Callback receives a PositionError object
+    //
+    function onError(error) {
+        alert('code: '    + error.code    + '\n' +
+                'message: ' + error.message + '\n');
+    }
+
+    ///////////////////////////////////////////////////////////////////////////////////
+
+
+    // onSuccess Callback
+    //   This method accepts a `Position` object, which contains
+    //   the current GPS coordinates
+    //
+    function onSuccess(position) {
+        var element = document.getElementById('geolocation');
+        element.innerHTML = 'Latitude: '  + position.coords.latitude      + '<br />' +
+                'Longitude: ' + position.coords.longitude     + '<br />' +
+                '<hr />'      + element.innerHTML;
+    }
+
+    // onError Callback receives a PositionError object
+    //
+    function onError(error) {
+        alert('code: '    + error.code    + '\n' +
+                'message: ' + error.message + '\n');
+    }
+
+    // Options: throw an error if no update is received every 30 seconds.
+    //
+
+    var watchID;
+    function locationTimeClik() {
+
+        watchID  = navigator.geolocation.watchPosition(onSuccess, onError, { timeout: 30000 });
+
+    }
+
+    //////////////////////////////////////////////////////////////
+
+    function clearTimeClik() {
+
+        navigator.geolocation.clearWatch(watchID);
+    }
+</script>
+</body>
+</html>

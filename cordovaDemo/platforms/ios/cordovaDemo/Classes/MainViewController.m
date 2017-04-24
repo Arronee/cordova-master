@@ -78,7 +78,10 @@
 //        self.startPage = @"DeviceOrientation.html";
         
         //文件管理
-        self.startPage =  @"File.html";
+//        self.startPage =  @"File.html";
+        
+        //定位
+        self.startPage = @"Geolocation.html";
         
     }
     return self;

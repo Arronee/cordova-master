@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DeviceMotion.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/cordova/DeviceMotion.html">
+      <file leaf-file-name="File.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/cordova/File.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="27" column="89" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="89" />
+            <state relative-caret-position="75">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -33,23 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BatteryStatue.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/cordova/BatteryStatue.html">
+      <file leaf-file-name="Geolocation.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/cordova/Geolocation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceOrientation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/cordova/DeviceOrientation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -62,18 +50,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="File.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/cordova/File.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -107,6 +83,7 @@
         <option value="$PROJECT_DIR$/www/cordova/DeviceMotion.html" />
         <option value="$PROJECT_DIR$/www/cordova/DeviceOrientation.html" />
         <option value="$PROJECT_DIR$/www/cordova/File.html" />
+        <option value="$PROJECT_DIR$/www/cordova/Geolocation.html" />
       </list>
     </option>
   </component>
@@ -642,12 +619,12 @@
       <option name="presentableId" value="Default" />
       <updated>1492653624312</updated>
       <workItem from="1492653625945" duration="13814000" />
-      <workItem from="1492835588546" duration="6990000" />
+      <workItem from="1492835588546" duration="8167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22395000" />
+    <option name="totallyTimeSpent" value="23572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -987,6 +964,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/cordova/DeviceOrientation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/cordova/DeviceMotion.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1007,10 +994,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/cordova/DeviceOrientation.html">
+    <entry file="file://$PROJECT_DIR$/www/cordova/File.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -1027,10 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/cordova/File.html">
+    <entry file="file://$PROJECT_DIR$/www/cordova/Geolocation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
