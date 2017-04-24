@@ -87,7 +87,10 @@
 //        self.startPage =  @"Globalozation.html";
         
         //浏览器
-        self.startPage = @"Inappbrowser.html";
+//        self.startPage = @"Inappbrowser.html";
+        
+        //网络状态
+        self.startPage = @"NetworkInformation.html";
         
     }
     return self;

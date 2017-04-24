@@ -5,16 +5,53 @@
     <title>网络状态</title>
     <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
 
+    <script>
+
+        function checkConnection() {
+            var networkState = navigator.connection.type;
+
+            var states = {};
+            states[Connection.UNKNOWN]  = 'Unknown connection';
+            states[Connection.ETHERNET] = 'Ethernet connection';
+            states[Connection.WIFI]     = 'WiFi connection';
+            states[Connection.CELL_2G]  = 'Cell 2G connection';
+            states[Connection.CELL_3G]  = 'Cell 3G connection';
+            states[Connection.CELL_4G]  = 'Cell 4G connection';
+            states[Connection.CELL]     = 'Cell generic connection';
+            states[Connection.NONE]     = 'No network connection';
+
+            alert('Connection type: ' + states[networkState]);
+        }
+
+        function dropLine() {
+
+            document.addEventListener("offline", onOffline, false);
+
+            document.addEventListener("online", onOnline, false);
+
+        }
+
+        function onOffline() {
+            // Handle the offline event
+            alert("网络无连接");
+        }
+
+        function onOnline() {
+            alert("网络连接");
+
+        }
+
+    </script>
 </head>
 <body>
 
 <div  style="position: absolute;top: 40px">
 
+    <input type="button" value="网络状态检查" onclick="checkConnection()">
+
+    <input type="button" value="添加掉线上线的监听" onclick="dropLine()">
+
 </div>
 
-<script>
-
-
-</script>
 </body>
 </html>
