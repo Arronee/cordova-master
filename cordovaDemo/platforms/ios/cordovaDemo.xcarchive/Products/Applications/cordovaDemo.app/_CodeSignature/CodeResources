@@ -206,7 +206,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		uX24i8UmCOCiD1MTzrPu7Gik4LM=
+		zsGXLomJnM1XOAkicmbzt8m5Fjs=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		aKxyCzh2imk29XW/MxM2q+7RS6Q=
+		gxixvOVTJ+/gvrP4wNayr1ksIVA=
 		</data>
 		<key>CDVNotification.bundle/beep.wav</key>
 		<data>
@@ -282,7 +282,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		NvyqJmlKz9BtH3yGAFxr3P8fpss=
+		ODBuVSxjBAoEGUG3ORvMYMFqAac=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -294,7 +294,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		ytYsYyLsbBERYUnXJejmTrPdTlU=
+		CjNQin0V1KAQ3her2fbUchhbcHY=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -370,11 +370,11 @@
 		</data>
 		<key>www/cordova/Statusbar.html</key>
 		<data>
-		LYX2nR35pXvZAxdLMmOPMNp+0ck=
+		oCCtPZKAUhtpXYz4Hzxj/Shw544=
 		</data>
 		<key>www/cordova/Vibration.html</key>
 		<data>
-		T1hhWw0H+RhVBa3rK8NmJWW1fIE=
+		Wv/AUb+Ugq+7Ji4FlAblKIWpwP4=
 		</data>
 		<key>www/cordova/Whitelist.html</key>
 		<data>
@@ -1206,11 +1206,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uX24i8UmCOCiD1MTzrPu7Gik4LM=
+			zsGXLomJnM1XOAkicmbzt8m5Fjs=
 			</data>
 			<key>hash2</key>
 			<data>
-			5brWZn2xf94dyABUSeLQVfjEBR+lApLb+OSJo578eaE=
+			+0zcW3KuzVgcRJu1XipxX/oxni1j0hes4A4qqInST0U=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1228,11 +1228,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aKxyCzh2imk29XW/MxM2q+7RS6Q=
+			gxixvOVTJ+/gvrP4wNayr1ksIVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			RzN3zN3kcDou75OT87BDjZED2nzlkKGlRkLf/IAwt18=
+			opuOMsrlQ2tbjBdmQwgpk02httMF/ObYIgWtC0NN8IQ=
 			</data>
 		</dict>
 		<key>CDVNotification.bundle/beep.wav</key>
@@ -1404,11 +1404,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NvyqJmlKz9BtH3yGAFxr3P8fpss=
+			ODBuVSxjBAoEGUG3ORvMYMFqAac=
 			</data>
 			<key>hash2</key>
 			<data>
-			0fkpHvGe9xj10I2Ylpg7NDoP3hUo4djKl95Qi5f59Y0=
+			OfbUcsqrD89bMmaAi410ubdzvZjMb4gLpEPcJD0T1bs=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -1426,11 +1426,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ytYsYyLsbBERYUnXJejmTrPdTlU=
+			CjNQin0V1KAQ3her2fbUchhbcHY=
 			</data>
 			<key>hash2</key>
 			<data>
-			grED+OUMfA5aXgAsTQQHmXe2I4hM6ANOkoemmivToxo=
+			BJyAwySExpuNuwD/hpXo0nhFLRd9ftypsk0SK/nttac=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -1635,22 +1635,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LYX2nR35pXvZAxdLMmOPMNp+0ck=
+			oCCtPZKAUhtpXYz4Hzxj/Shw544=
 			</data>
 			<key>hash2</key>
 			<data>
-			02/AX7zAvy0mDlGSIyBf6d7P8eTNKOWc5zu9t4t5t0I=
+			kCStAul1UIp31yGcQonOpqVzVkERCj9NqH8Kjfy3Zv8=
 			</data>
 		</dict>
 		<key>www/cordova/Vibration.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T1hhWw0H+RhVBa3rK8NmJWW1fIE=
+			Wv/AUb+Ugq+7Ji4FlAblKIWpwP4=
 			</data>
 			<key>hash2</key>
 			<data>
-			IUtO+XcqLuZAZLzUeBWSqdQVMwX9o0ShMw/Si8mSL5Q=
+			/YBV9UEUS56ltX+ao/0acG2kJSVIawMhnG3CTpjU3yo=
 			</data>
 		</dict>
 		<key>www/cordova/Whitelist.html</key>

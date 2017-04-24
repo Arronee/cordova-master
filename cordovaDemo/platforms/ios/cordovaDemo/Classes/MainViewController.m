@@ -93,7 +93,10 @@
 //        self.startPage = @"NetworkInformation.html";
         
         //震动
-        self.startPage = @"Vibration.html";
+//        self.startPage = @"Vibration.html";
+        
+        //状态栏
+        self.startPage = @"Statusbar.html";
         
     }
     return self;

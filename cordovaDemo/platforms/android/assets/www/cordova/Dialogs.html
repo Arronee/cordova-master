@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>对话框</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+
+</head>
+<body>
+
+<div style="position: absolute;top: 40px">
+
+    <input type="button" value="dialogs.alert" onclick="DialogsAlert()">
+    <input type="button" value="dialogs.confirm" onclick="DialogsConfirm()">
+    <input type="button" value="dialogs.prompt" onclick="DialogsPrompt()">
+    <input type="button" value="dialogs.beep" onclick="DialogsBeep()">
+
+</div>
+
+<script>
+
+    function DialogsAlert () {
+        navigator.notification.alert("这是消息", alertCallback,'标题','按钮名字');
+
+    }
+
+    function alertCallback () {
+        console.log('回调');
+
+    }
+
+    <!-------------分割线----------------->
+    function DialogsConfirm() {
+        navigator.notification.confirm("这是消息", confirmCallback, '标题', "按钮")
+    }
+
+    function confirmCallback() {
+
+        console.log('回调');
+    }
+    <!-------------分割线----------------->
+
+    function DialogsPrompt () {
+        navigator.notification.prompt("这是消息", promptCallback, '标题', "按钮一", "默认文本")
+
+    }
+
+    function promptCallback() {
+        console.log('回调');
+
+    }
+    <!-------------分割线----------------->
+
+    function DialogsBeep() {
+        navigator.notification.beep(1);
+
+    }
+
+</script>
+</body>
+</html>

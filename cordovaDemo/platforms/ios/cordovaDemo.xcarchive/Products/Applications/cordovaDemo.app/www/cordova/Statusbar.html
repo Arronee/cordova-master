@@ -10,11 +10,18 @@
 
 <div  style="position: absolute;top: 40px">
 
+    <input type="button" value="StatusBar.styleBlackOpaque" onclick="blackOpaque()">
 </div>
 
 <script>
 
+    function blackOpaque() {
 
+        StatusBar.overlaysWebView(true);
+
+        StatusBar.backgroundColorByName("#000000");
+
+    }
 </script>
 </body>
 </html>
