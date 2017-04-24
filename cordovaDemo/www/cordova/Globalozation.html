@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>国际化</title>
+    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+
+</head>
+<body>
+
+<div  style="position: absolute;top: 40px">
+
+    <input type="button" value="获取首选的语言" onclick="getPreferredl()">
+
+    <input type="button" value="getLocalName" onclick="getLocalN()">
+
+    <input type="button" value="dateToString" onclick="dateToS()">
+
+    <input type="button" value="getCurrencyPattern" onclick="getCurrentP()">
+
+    <input type="button" value="getDateNames" onclick="getDateN()">
+
+    <input type="button" value="getDatePattern" onclick="getDateP()">
+
+    <input type="button" value="getFirstDayOfWeek" onclick="getFirstDayOfW()">
+
+    <input type="button" value=".getNumberPattern" onclick="getNumberP()">
+    <input type="button" value="isDayLightSavingsTime" onclick="isDayLightSavingsT()">
+    <input type="button" value="numberToString" onclick="numberToS()">
+    <input type="button" value="stringToDate" onclick="stringToD()">
+    <input type="button" value="stringToNumber" onclick="stringToN()">
+
+</div>
+
+<script>
+
+    //获取首选的语言
+    function getPreferredl() {
+
+        navigator.globalization.getPreferredLanguage(
+                function (language) {alert('language: ' + language.value + '\n');},
+                function () {alert('Error getting language\n');}
+        );
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////
+
+    //获取本地的名字
+    function getLocalN() {
+        navigator.globalization.getLocaleName(
+                function (locale) {alert('locale: ' + locale.value + '\n');},
+                function () {alert('Error getting locale\n');}
+        );
+    }
+
+    ///////////////////////////////////////////////////////////////////////////
+
+    //获取当前时间
+    function dateToS() {
+
+        navigator.globalization.dateToString(
+                new Date(),
+                function (date) { alert('date: ' + date.value + '\n'); },
+                function () { alert('Error getting dateString\n'); },
+                { formatLength: 'short', selector: 'date and time' }
+        );
+    }
+
+    /////////////////////////////////////////////////////////////////////////////
+
+    function getCurrentP() {
+
+        navigator.globalization.getCurrencyPattern(
+                'USD',
+                function (pattern) {
+                    alert('pattern: '  + pattern.pattern  + '\n' +
+                            'code: '     + pattern.code     + '\n' +
+                            'fraction: ' + pattern.fraction + '\n' +
+                            'rounding: ' + pattern.rounding + '\n' +
+                            'decimal: '  + pattern.decimal  + '\n' +
+                            'grouping: ' + pattern.grouping);
+                },
+                function () { alert('Error getting pattern\n'); }
+        );
+    }
+    ///////////////////////////////////////////////////////////////////////////////
+
+    function getDateN() {
+
+        navigator.globalization.getDateNames(
+                function (names) {
+                    for (var i = 0; i < names.value.length; i++) {
+                        alert('month: ' + names.value[i] + '\n');
+                    }
+                },
+                function () { alert('Error getting names\n'); },
+                { type: 'wide', item: 'months' }
+        );
+    }
+    ///////////////////////////////////////////////////////////////////////////////
+
+    function getDateP() {
+
+        navigator.globalization.getDatePattern(
+                function (date) { alert('pattern: ' + date.pattern + '\n'); },
+                function () { alert('Error getting pattern\n'); },
+                { formatLength: 'short', selector: 'date and time' }
+        );
+    }
+    ///////////////////////////////////////////////////////////////////////////////
+
+
+    function getFirstDayOfW() {
+        navigator.globalization.getFirstDayOfWeek(
+                function (day) {alert('day: ' + day.value + '\n');},
+                function () {alert('Error getting day\n');}
+        );
+
+    }
+    ///////////////////////////////////////////////////////////////////////////////
+
+    function getNumberP() {
+
+        navigator.globalization.getNumberPattern(
+                function (pattern) {alert('pattern: '  + pattern.pattern  + '\n' +
+                        'symbol: '   + pattern.symbol   + '\n' +
+                        'fraction: ' + pattern.fraction + '\n' +
+                        'rounding: ' + pattern.rounding + '\n' +
+                        'positive: ' + pattern.positive + '\n' +
+                        'negative: ' + pattern.negative + '\n' +
+                        'decimal: '  + pattern.decimal  + '\n' +
+                        'grouping: ' + pattern.grouping);},
+                function () {alert('Error getting pattern\n');},
+                {type:'decimal'}
+        );
+    }
+    ///////////////////////////////////////////////////////////////////////////////
+
+    function isDayLightSavingsT() {
+
+        navigator.globalization.isDayLightSavingsTime(
+                new Date(),
+                function (date) {alert('dst: ' + date.dst + '\n');},
+                function () {alert('Error getting names\n');}
+        );
+    }
+    ///////////////////////////////////////////////////////////////////////////////
+
+    function numberToS() {
+
+        navigator.globalization.numberToString(
+                3.1415926,
+                function (number) {alert('number: ' + number.value + '\n');},
+                function () {alert('Error getting number\n');},
+                {type:'decimal'}
+        );
+    }
+    ///////////////////////////////////////////////////////////////////////////////
+
+    function stringToD() {
+
+        navigator.globalization.stringToDate(
+                '9/25/2012',
+                function (date) {alert('month:' + date.month +
+                        ' day:'  + date.day   +
+                        ' year:' + date.year  + '\n');},
+                function () {alert('Error getting date\n');},
+                {selector: 'date'}
+        );
+    }
+    ///////////////////////////////////////////////////////////////////////////////
+
+    function stringToN() {
+
+        navigator.globalization.stringToNumber(
+                '1234.56',
+                function (number) {alert('number: ' + number.value + '\n');},
+                function () {alert('Error getting number\n');},
+                {type:'decimal'}
+        );
+    }
+
+
+</script>
+</body>
+</html>

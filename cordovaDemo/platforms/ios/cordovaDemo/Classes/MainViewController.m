@@ -81,7 +81,10 @@
 //        self.startPage =  @"File.html";
         
         //定位
-        self.startPage = @"Geolocation.html";
+//        self.startPage = @"Geolocation.html";
+        
+        //国际化
+        self.startPage =  @"Globalozation.html";
         
     }
     return self;
