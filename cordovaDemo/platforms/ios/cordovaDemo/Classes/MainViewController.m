@@ -80,6 +80,15 @@
         //文件管理
 //        self.startPage =  @"File.html";
         
+        //文件上传
+        self.startPage = @"FileTransfer.html";
+        
+        //多媒体
+//        self.startPage = @"Media.html";
+        
+        //媒体捕获
+//        self.startPage = @"MediaCapture.html";
+        
         //定位
 //        self.startPage = @"Geolocation.html";
         
@@ -96,7 +105,7 @@
 //        self.startPage = @"Vibration.html";
         
         //状态栏
-        self.startPage = @"Statusbar.html";
+//        self.startPage = @"Statusbar.html";
         
     }
     return self;
