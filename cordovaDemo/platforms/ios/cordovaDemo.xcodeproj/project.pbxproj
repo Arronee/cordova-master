@@ -51,6 +51,25 @@
 		849E5CD4B5D04D5885D1E2C4 /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFBB3E87A5A451DB4AF918A /* CDVViewController+SplashScreen.m */; };
 		070CCD7F46EB453CA7782833 /* CDVVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D74926D039E4679918087B6 /* CDVVibration.m */; };
 		8D85C94410C54BEAB2082BED /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C23AD52E8F4409B277F302 /* CDVStatusBar.m */; };
+		F64650E5B4D046DEBCCCE4ED /* CDVAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E361B215F8C4E2883107E8A /* CDVAlipay.m */; };
+		9F911526D05B49289B5EE716 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAB8F23422A400C80ACBBE0 /* Order.m */; };
+		D9565087027747E782A169B5 /* base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 113CBF61B4A64D55950589BB /* base64.m */; };
+		EE893E6B663642B8BE03CE7E /* DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 196767573BFC4333B50C75B1 /* DataSigner.m */; };
+		412C8C3C0E6F4B998CCAEC96 /* DataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = AAEEDEC6F0384A4B9F1E9A2B /* DataVerifier.m */; };
+		51C25B0726114C26BE49F372 /* MD5DataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE7C50D593C4FFA857E8026 /* MD5DataSigner.m */; };
+		90FE16DEF3244656BBB6FB39 /* NSDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CFA891C837444EB8EC5493 /* NSDataEx.m */; };
+		1621CBD593574D2E80BDA74D /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FA73CD05C34655A0A08E51 /* openssl_wrapper.m */; };
+		BAB8F9A4A8D0410D8BF7DC7F /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = B453EF7BD6F14817BA926432 /* RSADataSigner.m */; };
+		1279E82E84944EB29406A054 /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 408EB4A9881C417896C38921 /* RSADataVerifier.m */; };
+		B8A655364DBF4030A7DC32E1 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E6F77F609941E1B7CDED76 /* libcrypto.a */; };
+		2F3129AF30DB4916B35EE82A /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B46E75E436849E991201FFD /* libssl.a */; };
+		17F662F92CE84AB380ECD2AC /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 83EF17EF22CF42BE989D33A2 /* AlipaySDK.bundle */; };
+		66D5D9CD0488449EAA9BAD92 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCBA1B9DE9A40339EFFE21F /* libsqlite3.0.tbd */; };
+		C54D609D018F4481812D738C /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB86C120D3249BE92AF7791 /* libz.1.2.5.tbd */; };
+		2DEAFB3BF3B2419E8EFAD8D7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17D9B62513D4671ABD90715 /* Security.framework */; };
+		A07C4E235E4540CD8352D56B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B8771BAFB3A1408A9AE3FEFE /* libstdc++.6.0.9.tbd */; };
+		46600FC5BD734832BE323CBF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F8FE43B85C443C8C9D87C6 /* libc++.tbd */; };
+		039F68BDBBE043878DE390FC /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9227CA9C844CE4BAA4B899 /* AlipaySDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +175,111 @@
 		4ADD7F96411246F897928FD1 /* CDVVibration.h */ = {isa = PBXFileReference; name = "CDVVibration.h"; path = "cordova-plugin-vibration/CDVVibration.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		16C23AD52E8F4409B277F302 /* CDVStatusBar.m */ = {isa = PBXFileReference; name = "CDVStatusBar.m"; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		111484F296C04BD2B278F5DB /* CDVStatusBar.h */ = {isa = PBXFileReference; name = "CDVStatusBar.h"; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		3E361B215F8C4E2883107E8A /* CDVAlipay.m */ = {isa = PBXFileReference; name = "CDVAlipay.m"; path = "com.yoopoon.cordova.plugin.alipay/CDVAlipay.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		9BAB8F23422A400C80ACBBE0 /* Order.m */ = {isa = PBXFileReference; name = "Order.m"; path = "com.yoopoon.cordova.plugin.alipay/Order.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		113CBF61B4A64D55950589BB /* base64.m */ = {isa = PBXFileReference; name = "base64.m"; path = "com.yoopoon.cordova.plugin.alipay/base64.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		196767573BFC4333B50C75B1 /* DataSigner.m */ = {isa = PBXFileReference; name = "DataSigner.m"; path = "com.yoopoon.cordova.plugin.alipay/DataSigner.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		AAEEDEC6F0384A4B9F1E9A2B /* DataVerifier.m */ = {isa = PBXFileReference; name = "DataVerifier.m"; path = "com.yoopoon.cordova.plugin.alipay/DataVerifier.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		2FE7C50D593C4FFA857E8026 /* MD5DataSigner.m */ = {isa = PBXFileReference; name = "MD5DataSigner.m"; path = "com.yoopoon.cordova.plugin.alipay/MD5DataSigner.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		69CFA891C837444EB8EC5493 /* NSDataEx.m */ = {isa = PBXFileReference; name = "NSDataEx.m"; path = "com.yoopoon.cordova.plugin.alipay/NSDataEx.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		87FA73CD05C34655A0A08E51 /* openssl_wrapper.m */ = {isa = PBXFileReference; name = "openssl_wrapper.m"; path = "com.yoopoon.cordova.plugin.alipay/openssl_wrapper.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		B453EF7BD6F14817BA926432 /* RSADataSigner.m */ = {isa = PBXFileReference; name = "RSADataSigner.m"; path = "com.yoopoon.cordova.plugin.alipay/RSADataSigner.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		408EB4A9881C417896C38921 /* RSADataVerifier.m */ = {isa = PBXFileReference; name = "RSADataVerifier.m"; path = "com.yoopoon.cordova.plugin.alipay/RSADataVerifier.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		C0E6F77F609941E1B7CDED76 /* libcrypto.a */ = {isa = PBXFileReference; name = "libcrypto.a"; path = "cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay/libcrypto.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		4B46E75E436849E991201FFD /* libssl.a */ = {isa = PBXFileReference; name = "libssl.a"; path = "cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay/libssl.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		9BEFD7CF84894C5583FE3B49 /* CDVAlipay.h */ = {isa = PBXFileReference; name = "CDVAlipay.h"; path = "com.yoopoon.cordova.plugin.alipay/CDVAlipay.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E297761E72A34CB9BCE931D2 /* Order.h */ = {isa = PBXFileReference; name = "Order.h"; path = "com.yoopoon.cordova.plugin.alipay/Order.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F7D5A9616ED24019B0DD080D /* aes.h */ = {isa = PBXFileReference; name = "aes.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/aes.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B21122A0B74E49FE997B783C /* asn1_mac.h */ = {isa = PBXFileReference; name = "asn1_mac.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/asn1_mac.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		0440867F43414427BF93047C /* asn1.h */ = {isa = PBXFileReference; name = "asn1.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/asn1.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		ABD26CAD5ABD4064963F769D /* asn1t.h */ = {isa = PBXFileReference; name = "asn1t.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/asn1t.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		AFCD59CA005C497780740E33 /* bio.h */ = {isa = PBXFileReference; name = "bio.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/bio.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EC72760577FC4CA292DF1FE9 /* blowfish.h */ = {isa = PBXFileReference; name = "blowfish.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/blowfish.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		BF1416EBA79F40E0A5A49232 /* bn.h */ = {isa = PBXFileReference; name = "bn.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/bn.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		65CE3E5965EE45A494F575C8 /* buffer.h */ = {isa = PBXFileReference; name = "buffer.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/buffer.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A2514C4E17754B5884765E8F /* camellia.h */ = {isa = PBXFileReference; name = "camellia.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/camellia.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D294560A5011486DAF0B7671 /* cast.h */ = {isa = PBXFileReference; name = "cast.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/cast.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		CC3CB2C548B2453AADAC8003 /* cmac.h */ = {isa = PBXFileReference; name = "cmac.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/cmac.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		2AA1E36F34194E9695A42487 /* cms.h */ = {isa = PBXFileReference; name = "cms.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/cms.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		ACF4B3871FCD45C4BDAE4CA2 /* comp.h */ = {isa = PBXFileReference; name = "comp.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/comp.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FB792A03B08D41E4A43A82D0 /* conf_api.h */ = {isa = PBXFileReference; name = "conf_api.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/conf_api.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		2D13E6F536B34E069FA69958 /* conf.h */ = {isa = PBXFileReference; name = "conf.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/conf.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		8E441E8102CC4A139F3C4D3B /* crypto.h */ = {isa = PBXFileReference; name = "crypto.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/crypto.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		778DE0BEBD954AE4945B8471 /* des_old.h */ = {isa = PBXFileReference; name = "des_old.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/des_old.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E04E3367C7B6445B87A164C9 /* des.h */ = {isa = PBXFileReference; name = "des.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/des.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		84A84E4A9E3047F08480B6E8 /* dh.h */ = {isa = PBXFileReference; name = "dh.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/dh.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		010D56079563411888C2F92C /* dsa.h */ = {isa = PBXFileReference; name = "dsa.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/dsa.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F45FA60BD6DA43789286DDE1 /* dso.h */ = {isa = PBXFileReference; name = "dso.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/dso.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		55BF87E74EA342A4B48AA009 /* dtls1.h */ = {isa = PBXFileReference; name = "dtls1.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/dtls1.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		E856DB3641894926BBA6063B /* e_os2.h */ = {isa = PBXFileReference; name = "e_os2.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/e_os2.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		771C1E8DF83C4BCEA5ABD9E5 /* ebcdic.h */ = {isa = PBXFileReference; name = "ebcdic.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ebcdic.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B9A2E17E7DE04570B118685B /* ec.h */ = {isa = PBXFileReference; name = "ec.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ec.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		0F40ED690ADA4C13B877CC6E /* ecdh.h */ = {isa = PBXFileReference; name = "ecdh.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ecdh.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		AA3F0EFB751F4DD1BA045648 /* ecdsa.h */ = {isa = PBXFileReference; name = "ecdsa.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ecdsa.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		98ED97C4E53A492D92CF5147 /* engine.h */ = {isa = PBXFileReference; name = "engine.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/engine.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FC00C69FE1B846D5AFEC62DB /* err.h */ = {isa = PBXFileReference; name = "err.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/err.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D28BE8424ED346798337BACA /* evp.h */ = {isa = PBXFileReference; name = "evp.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/evp.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		840468F78C994055A779A765 /* hmac.h */ = {isa = PBXFileReference; name = "hmac.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/hmac.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		1970FE9FAF2A4FE5B11D0FF7 /* idea.h */ = {isa = PBXFileReference; name = "idea.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/idea.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		164CAEA7CF93499BA99F996E /* krb5_asn.h */ = {isa = PBXFileReference; name = "krb5_asn.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/krb5_asn.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F7218004B2044458836BE717 /* kssl.h */ = {isa = PBXFileReference; name = "kssl.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/kssl.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FD0407D89F094737B9DCF370 /* lhash.h */ = {isa = PBXFileReference; name = "lhash.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/lhash.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9CDAA6E182604FCA9C5AD418 /* md4.h */ = {isa = PBXFileReference; name = "md4.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/md4.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C70E53F8B6CF478A80E333ED /* md5.h */ = {isa = PBXFileReference; name = "md5.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/md5.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C7426363565341BEBA4C6AF8 /* mdc2.h */ = {isa = PBXFileReference; name = "mdc2.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/mdc2.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		87BBCA64A8CB4A72B8677611 /* modes.h */ = {isa = PBXFileReference; name = "modes.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/modes.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A9C175875FFC4844914F8AFB /* obj_mac.h */ = {isa = PBXFileReference; name = "obj_mac.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/obj_mac.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7F913A67CF3C49E9926474FD /* objects.h */ = {isa = PBXFileReference; name = "objects.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/objects.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		09AA50853E2E4A139DF9F583 /* ocsp.h */ = {isa = PBXFileReference; name = "ocsp.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ocsp.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		367B62DBEA7E4F1392315F6C /* opensslconf.h */ = {isa = PBXFileReference; name = "opensslconf.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/opensslconf.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		704EDDE282C54C58B1C6925A /* opensslv.h */ = {isa = PBXFileReference; name = "opensslv.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/opensslv.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B0770813507D42A2B28CC012 /* ossl_typ.h */ = {isa = PBXFileReference; name = "ossl_typ.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ossl_typ.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4800F640DC314777AA64A865 /* pem.h */ = {isa = PBXFileReference; name = "pem.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/pem.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F3EB341A41CE499F96CAB379 /* pem2.h */ = {isa = PBXFileReference; name = "pem2.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/pem2.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FC8FFA7937114212A9B100EC /* pkcs12.h */ = {isa = PBXFileReference; name = "pkcs12.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/pkcs12.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		20837F7E0DC142CE8C2B98CA /* pkcs7.h */ = {isa = PBXFileReference; name = "pkcs7.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/pkcs7.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		871DD476B2B348DFBDA2916A /* pqueue.h */ = {isa = PBXFileReference; name = "pqueue.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/pqueue.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		57524E593AE64F1299B9F0BA /* rand.h */ = {isa = PBXFileReference; name = "rand.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/rand.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		3393049DA8BC4890ACEBBEEA /* rc2.h */ = {isa = PBXFileReference; name = "rc2.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/rc2.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		07B58AFC13EF4ADFA26C2510 /* rc4.h */ = {isa = PBXFileReference; name = "rc4.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/rc4.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		3B5987BE2E9F47979CBA66B7 /* ripemd.h */ = {isa = PBXFileReference; name = "ripemd.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ripemd.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		7F237FC95BD841E4A6B8C0EB /* rsa.h */ = {isa = PBXFileReference; name = "rsa.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/rsa.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B345A2AD32074A5FBF8745D9 /* safestack.h */ = {isa = PBXFileReference; name = "safestack.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/safestack.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		2A68CE155F0545C0948FD361 /* seed.h */ = {isa = PBXFileReference; name = "seed.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/seed.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EF7EB343F6FE4E1E867660D7 /* sha.h */ = {isa = PBXFileReference; name = "sha.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/sha.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B83C312198574E45840037D6 /* srp.h */ = {isa = PBXFileReference; name = "srp.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/srp.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C59D7198275547C5914680B1 /* srtp.h */ = {isa = PBXFileReference; name = "srtp.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/srtp.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		048FC262FBD8457CA80E0278 /* ssl.h */ = {isa = PBXFileReference; name = "ssl.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ssl.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		B195E99198A94A59B354C2E1 /* ssl2.h */ = {isa = PBXFileReference; name = "ssl2.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ssl2.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		AB2E32AAB17B4C609EB3F8CB /* ssl23.h */ = {isa = PBXFileReference; name = "ssl23.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ssl23.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		DCE8ECB1DE44485A93093AD7 /* ssl3.h */ = {isa = PBXFileReference; name = "ssl3.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ssl3.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D8A5FC276838472E89F20EBF /* stack.h */ = {isa = PBXFileReference; name = "stack.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/stack.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		3CBFEED73D1F40788C6F38CF /* symhacks.h */ = {isa = PBXFileReference; name = "symhacks.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/symhacks.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		02DCC2A3F17245C9A39B9410 /* tls1.h */ = {isa = PBXFileReference; name = "tls1.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/tls1.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		8013D588A450440D8B7F406C /* ts.h */ = {isa = PBXFileReference; name = "ts.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ts.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		06F3F240927449DEAE890C16 /* txt_db.h */ = {isa = PBXFileReference; name = "txt_db.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/txt_db.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A57244A0DB6941AA978BEFD4 /* ui_compat.h */ = {isa = PBXFileReference; name = "ui_compat.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ui_compat.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C09C60BEE84043A3B4EFB369 /* ui.h */ = {isa = PBXFileReference; name = "ui.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/ui.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5DFE48F4270D48E3A305AEB3 /* whrlpool.h */ = {isa = PBXFileReference; name = "whrlpool.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/whrlpool.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		4B76AD9E9F624F7FBDDF9E3D /* x509_vfy.h */ = {isa = PBXFileReference; name = "x509_vfy.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/x509_vfy.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		F5CBFB191CBD4D01832631A5 /* x509.h */ = {isa = PBXFileReference; name = "x509.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/x509.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		DACFF78549674D9286BC67A9 /* x509v3.h */ = {isa = PBXFileReference; name = "x509v3.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl/x509v3.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5430244BA1B9435ABE0B915F /* base64.h */ = {isa = PBXFileReference; name = "base64.h"; path = "com.yoopoon.cordova.plugin.alipay/base64.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		5B1072D0C4444A1884BDFCC4 /* config.h */ = {isa = PBXFileReference; name = "config.h"; path = "com.yoopoon.cordova.plugin.alipay/config.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FA6A3BF3B7704296A30DFE17 /* DataSigner.h */ = {isa = PBXFileReference; name = "DataSigner.h"; path = "com.yoopoon.cordova.plugin.alipay/DataSigner.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D874F1E4D41242DA9D1264F5 /* DataVerifier.h */ = {isa = PBXFileReference; name = "DataVerifier.h"; path = "com.yoopoon.cordova.plugin.alipay/DataVerifier.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C11FDCFA61324094B0EDDD1D /* MD5DataSigner.h */ = {isa = PBXFileReference; name = "MD5DataSigner.h"; path = "com.yoopoon.cordova.plugin.alipay/MD5DataSigner.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		9284C87C74CC4FBB86DAE82E /* NSDataEx.h */ = {isa = PBXFileReference; name = "NSDataEx.h"; path = "com.yoopoon.cordova.plugin.alipay/NSDataEx.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		47F3908D93224E07858E8E58 /* openssl_wrapper.h */ = {isa = PBXFileReference; name = "openssl_wrapper.h"; path = "com.yoopoon.cordova.plugin.alipay/openssl_wrapper.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		AD70525335734D3498AD57E0 /* RSADataSigner.h */ = {isa = PBXFileReference; name = "RSADataSigner.h"; path = "com.yoopoon.cordova.plugin.alipay/RSADataSigner.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		FF71FE7AB9504AFF93F79885 /* RSADataVerifier.h */ = {isa = PBXFileReference; name = "RSADataVerifier.h"; path = "com.yoopoon.cordova.plugin.alipay/RSADataVerifier.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		83EF17EF22CF42BE989D33A2 /* AlipaySDK.bundle */ = {isa = PBXFileReference; name = "AlipaySDK.bundle"; path = "AlipaySDK.bundle"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.plug-in; explicitFileType = undefined; includeInIndex = 0; };
+		7BCBA1B9DE9A40339EFFE21F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; name = "libsqlite3.0.tbd"; path = "usr/lib/libsqlite3.0.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		6EB86C120D3249BE92AF7791 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; name = "libz.1.2.5.tbd"; path = "usr/lib/libz.1.2.5.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		D17D9B62513D4671ABD90715 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		B8771BAFB3A1408A9AE3FEFE /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		F7F8FE43B85C443C8C9D87C6 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		1C9227CA9C844CE4BAA4B899 /* AlipaySDK.framework */ = {isa = PBXFileReference; name = "AlipaySDK.framework"; path = "cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay/AlipaySDK.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +298,14 @@
 				3D9529EC618E4CEE954A9C5A /* CoreMotion.framework in Frameworks */,
 				E75516323937462684A9D2CA /* SystemConfiguration.framework in Frameworks */,
 				7A24FE9C3DBC4C4D831677C5 /* CoreTelephony.framework in Frameworks */,
+				B8A655364DBF4030A7DC32E1 /* libcrypto.a in Frameworks */,
+				2F3129AF30DB4916B35EE82A /* libssl.a in Frameworks */,
+				66D5D9CD0488449EAA9BAD92 /* libsqlite3.0.tbd in Frameworks */,
+				C54D609D018F4481812D738C /* libz.1.2.5.tbd in Frameworks */,
+				2DEAFB3BF3B2419E8EFAD8D7 /* Security.framework in Frameworks */,
+				A07C4E235E4540CD8352D56B /* libstdc++.6.0.9.tbd in Frameworks */,
+				46600FC5BD734832BE323CBF /* libc++.tbd in Frameworks */,
+				039F68BDBBE043878DE390FC /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +370,7 @@
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
 				093DCFFA53C3442E9ABFE882 /* CDVNotification.bundle */,
 				C94C9F68CB9943748A7005CF /* CDVCapture.bundle */,
+				83EF17EF22CF42BE989D33A2 /* AlipaySDK.bundle */,
 			);
 			name = Resources;
 			path = cordovaDemo/Resources;
@@ -256,6 +389,14 @@
 				B0AED0E0CE76402BB3B1C267 /* CoreMotion.framework */,
 				90263DD7A92B49D196D21B71 /* SystemConfiguration.framework */,
 				A13CB47EA2474BD6AE15F617 /* CoreTelephony.framework */,
+				C0E6F77F609941E1B7CDED76 /* libcrypto.a */,
+				4B46E75E436849E991201FFD /* libssl.a */,
+				7BCBA1B9DE9A40339EFFE21F /* libsqlite3.0.tbd */,
+				6EB86C120D3249BE92AF7791 /* libz.1.2.5.tbd */,
+				D17D9B62513D4671ABD90715 /* Security.framework */,
+				B8771BAFB3A1408A9AE3FEFE /* libstdc++.6.0.9.tbd */,
+				F7F8FE43B85C443C8C9D87C6 /* libc++.tbd */,
+				1C9227CA9C844CE4BAA4B899 /* AlipaySDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -334,6 +475,102 @@
 				4ADD7F96411246F897928FD1 /* CDVVibration.h */,
 				16C23AD52E8F4409B277F302 /* CDVStatusBar.m */,
 				111484F296C04BD2B278F5DB /* CDVStatusBar.h */,
+				3E361B215F8C4E2883107E8A /* CDVAlipay.m */,
+				9BAB8F23422A400C80ACBBE0 /* Order.m */,
+				113CBF61B4A64D55950589BB /* base64.m */,
+				196767573BFC4333B50C75B1 /* DataSigner.m */,
+				AAEEDEC6F0384A4B9F1E9A2B /* DataVerifier.m */,
+				2FE7C50D593C4FFA857E8026 /* MD5DataSigner.m */,
+				69CFA891C837444EB8EC5493 /* NSDataEx.m */,
+				87FA73CD05C34655A0A08E51 /* openssl_wrapper.m */,
+				B453EF7BD6F14817BA926432 /* RSADataSigner.m */,
+				408EB4A9881C417896C38921 /* RSADataVerifier.m */,
+				9BEFD7CF84894C5583FE3B49 /* CDVAlipay.h */,
+				E297761E72A34CB9BCE931D2 /* Order.h */,
+				F7D5A9616ED24019B0DD080D /* aes.h */,
+				B21122A0B74E49FE997B783C /* asn1_mac.h */,
+				0440867F43414427BF93047C /* asn1.h */,
+				ABD26CAD5ABD4064963F769D /* asn1t.h */,
+				AFCD59CA005C497780740E33 /* bio.h */,
+				EC72760577FC4CA292DF1FE9 /* blowfish.h */,
+				BF1416EBA79F40E0A5A49232 /* bn.h */,
+				65CE3E5965EE45A494F575C8 /* buffer.h */,
+				A2514C4E17754B5884765E8F /* camellia.h */,
+				D294560A5011486DAF0B7671 /* cast.h */,
+				CC3CB2C548B2453AADAC8003 /* cmac.h */,
+				2AA1E36F34194E9695A42487 /* cms.h */,
+				ACF4B3871FCD45C4BDAE4CA2 /* comp.h */,
+				FB792A03B08D41E4A43A82D0 /* conf_api.h */,
+				2D13E6F536B34E069FA69958 /* conf.h */,
+				8E441E8102CC4A139F3C4D3B /* crypto.h */,
+				778DE0BEBD954AE4945B8471 /* des_old.h */,
+				E04E3367C7B6445B87A164C9 /* des.h */,
+				84A84E4A9E3047F08480B6E8 /* dh.h */,
+				010D56079563411888C2F92C /* dsa.h */,
+				F45FA60BD6DA43789286DDE1 /* dso.h */,
+				55BF87E74EA342A4B48AA009 /* dtls1.h */,
+				E856DB3641894926BBA6063B /* e_os2.h */,
+				771C1E8DF83C4BCEA5ABD9E5 /* ebcdic.h */,
+				B9A2E17E7DE04570B118685B /* ec.h */,
+				0F40ED690ADA4C13B877CC6E /* ecdh.h */,
+				AA3F0EFB751F4DD1BA045648 /* ecdsa.h */,
+				98ED97C4E53A492D92CF5147 /* engine.h */,
+				FC00C69FE1B846D5AFEC62DB /* err.h */,
+				D28BE8424ED346798337BACA /* evp.h */,
+				840468F78C994055A779A765 /* hmac.h */,
+				1970FE9FAF2A4FE5B11D0FF7 /* idea.h */,
+				164CAEA7CF93499BA99F996E /* krb5_asn.h */,
+				F7218004B2044458836BE717 /* kssl.h */,
+				FD0407D89F094737B9DCF370 /* lhash.h */,
+				9CDAA6E182604FCA9C5AD418 /* md4.h */,
+				C70E53F8B6CF478A80E333ED /* md5.h */,
+				C7426363565341BEBA4C6AF8 /* mdc2.h */,
+				87BBCA64A8CB4A72B8677611 /* modes.h */,
+				A9C175875FFC4844914F8AFB /* obj_mac.h */,
+				7F913A67CF3C49E9926474FD /* objects.h */,
+				09AA50853E2E4A139DF9F583 /* ocsp.h */,
+				367B62DBEA7E4F1392315F6C /* opensslconf.h */,
+				704EDDE282C54C58B1C6925A /* opensslv.h */,
+				B0770813507D42A2B28CC012 /* ossl_typ.h */,
+				4800F640DC314777AA64A865 /* pem.h */,
+				F3EB341A41CE499F96CAB379 /* pem2.h */,
+				FC8FFA7937114212A9B100EC /* pkcs12.h */,
+				20837F7E0DC142CE8C2B98CA /* pkcs7.h */,
+				871DD476B2B348DFBDA2916A /* pqueue.h */,
+				57524E593AE64F1299B9F0BA /* rand.h */,
+				3393049DA8BC4890ACEBBEEA /* rc2.h */,
+				07B58AFC13EF4ADFA26C2510 /* rc4.h */,
+				3B5987BE2E9F47979CBA66B7 /* ripemd.h */,
+				7F237FC95BD841E4A6B8C0EB /* rsa.h */,
+				B345A2AD32074A5FBF8745D9 /* safestack.h */,
+				2A68CE155F0545C0948FD361 /* seed.h */,
+				EF7EB343F6FE4E1E867660D7 /* sha.h */,
+				B83C312198574E45840037D6 /* srp.h */,
+				C59D7198275547C5914680B1 /* srtp.h */,
+				048FC262FBD8457CA80E0278 /* ssl.h */,
+				B195E99198A94A59B354C2E1 /* ssl2.h */,
+				AB2E32AAB17B4C609EB3F8CB /* ssl23.h */,
+				DCE8ECB1DE44485A93093AD7 /* ssl3.h */,
+				D8A5FC276838472E89F20EBF /* stack.h */,
+				3CBFEED73D1F40788C6F38CF /* symhacks.h */,
+				02DCC2A3F17245C9A39B9410 /* tls1.h */,
+				8013D588A450440D8B7F406C /* ts.h */,
+				06F3F240927449DEAE890C16 /* txt_db.h */,
+				A57244A0DB6941AA978BEFD4 /* ui_compat.h */,
+				C09C60BEE84043A3B4EFB369 /* ui.h */,
+				5DFE48F4270D48E3A305AEB3 /* whrlpool.h */,
+				4B76AD9E9F624F7FBDDF9E3D /* x509_vfy.h */,
+				F5CBFB191CBD4D01832631A5 /* x509.h */,
+				DACFF78549674D9286BC67A9 /* x509v3.h */,
+				5430244BA1B9435ABE0B915F /* base64.h */,
+				5B1072D0C4444A1884BDFCC4 /* config.h */,
+				FA6A3BF3B7704296A30DFE17 /* DataSigner.h */,
+				D874F1E4D41242DA9D1264F5 /* DataVerifier.h */,
+				C11FDCFA61324094B0EDDD1D /* MD5DataSigner.h */,
+				9284C87C74CC4FBB86DAE82E /* NSDataEx.h */,
+				47F3908D93224E07858E8E58 /* openssl_wrapper.h */,
+				AD70525335734D3498AD57E0 /* RSADataSigner.h */,
+				FF71FE7AB9504AFF93F79885 /* RSADataVerifier.h */,
 			);
 			name = Plugins;
 			path = cordovaDemo/Plugins;
@@ -425,6 +662,7 @@
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
 				7303EBD9343245BCB2B1BA22 /* CDVNotification.bundle in Resources */,
 				F7F4B807BBD44DF29CCF5B8E /* CDVCapture.bundle in Resources */,
+				17F662F92CE84AB380ECD2AC /* AlipaySDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +720,16 @@
 				849E5CD4B5D04D5885D1E2C4 /* CDVViewController+SplashScreen.m in Sources */,
 				070CCD7F46EB453CA7782833 /* CDVVibration.m in Sources */,
 				8D85C94410C54BEAB2082BED /* CDVStatusBar.m in Sources */,
+				F64650E5B4D046DEBCCCE4ED /* CDVAlipay.m in Sources */,
+				9F911526D05B49289B5EE716 /* Order.m in Sources */,
+				D9565087027747E782A169B5 /* base64.m in Sources */,
+				EE893E6B663642B8BE03CE7E /* DataSigner.m in Sources */,
+				412C8C3C0E6F4B998CCAEC96 /* DataVerifier.m in Sources */,
+				51C25B0726114C26BE49F372 /* MD5DataSigner.m in Sources */,
+				90FE16DEF3244656BBB6FB39 /* NSDataEx.m in Sources */,
+				1621CBD593574D2E80BDA74D /* openssl_wrapper.m in Sources */,
+				BAB8F9A4A8D0410D8BF7DC7F /* RSADataSigner.m in Sources */,
+				1279E82E84944EB29406A054 /* RSADataVerifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +766,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = cordovaDemo;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay\"",
+					"\"$(SRCROOT)/cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay\"",
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay\"",
+				);
 			};
 			name = Debug;
 		};
@@ -541,6 +798,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_NAME = cordovaDemo;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay\"",
+					"\"$(SRCROOT)/cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay\"",
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay\"",
+				);
 			};
 			name = Release;
 		};

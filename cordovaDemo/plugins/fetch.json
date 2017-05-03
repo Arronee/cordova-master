@@ -168,5 +168,13 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "com.yoopoon.cordova.plugin.alipay": {
+        "source": {
+            "type": "local",
+            "path": "/Users/roc/Desktop/com.yoopoon.cordova.plugin.alipay"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

@@ -74,6 +74,9 @@
         },
         "cordova-plugin-statusbar": {
             "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "com.yoopoon.cordova.plugin.alipay": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
         }
     },
     "dependent_plugins": {

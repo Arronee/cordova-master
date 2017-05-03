@@ -109,4 +109,8 @@
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="StatusBarOverlaysWebView" value="true" />
+    <feature name="Alipay">
+        <param name="ios-package" value="CDVAlipay" />
+        <param name="onload" value="true" />
+    </feature>
 </widget>

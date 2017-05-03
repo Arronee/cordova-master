@@ -570,6 +570,14 @@ module.exports = [
         "clobbers": [
             "window.StatusBar"
         ]
+    },
+    {
+        "id": "com.yoopoon.cordova.plugin.alipay.alipay",
+        "file": "plugins/com.yoopoon.cordova.plugin.alipay/www/alipay.js",
+        "pluginId": "com.yoopoon.cordova.plugin.alipay",
+        "clobbers": [
+            "navigator.alipay"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -595,7 +603,8 @@ module.exports.metadata =
     "cordova-plugin-network-information": "1.3.2",
     "cordova-plugin-splashscreen": "4.0.2",
     "cordova-plugin-vibration": "2.1.4",
-    "cordova-plugin-statusbar": "2.2.2"
+    "cordova-plugin-statusbar": "2.2.2",
+    "com.yoopoon.cordova.plugin.alipay": "5.3.0"
 };
 // BOTTOM OF METADATA
 });
