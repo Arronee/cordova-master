@@ -10,10 +10,52 @@
 
 <div  style="position: absolute;top: 40px">
 
+    <input type="button" value="captureAudio" onclick="captureAudioClik()"><br>
+
+    <input type="button" value="captureImage" onclick="captureImageClik()"><br>
+
+    <input type="button" value="captureVideo" onclick="captureVideoClik()"><br>
+
+
+    <input type=”button” name=”Submit” onclick="javascript:history.back(-1);" value=”返回上一页”>
+
 </div>
 
 <script>
+    // capture callback
+    var captureSuccess = function(mediaFiles) {
+        var i, path, len;
+        for (i = 0, len = mediaFiles.length; i < len; i += 1) {
+            path = mediaFiles[i].fullPath;
+            // do something interesting with the file
+            console.log('path = '+path);
+        }
+    };
 
+    // capture error callback
+    var captureError = function(error) {
+        navigator.notification.alert('Error code: ' + error.code, null, 'Capture Error');
+    };
+
+    //音频的捕获
+    function captureAudioClik() {
+
+    // start audio capture
+    navigator.device.capture.captureAudio(captureSuccess, captureError, {limit:2});
+    }
+
+
+    //图片的捕获
+    function captureImageClik() {
+        navigator.device.capture.captureImage(captureSuccess, captureError, {limit:2});
+
+    }
+    
+    //录像的获取
+    function captureVideoClik() {
+        navigator.device.capture.captureVideo(captureSuccess, captureError, {limit:2});
+
+    }
 
 </script>
 </body>

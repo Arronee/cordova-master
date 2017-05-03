@@ -2,37 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>媒体</title>
-    <script type="text/javascript" charset="utf-8" src="../cordova.js"></script>
+    <title>多媒体</title>
+    <script type="text/javascript" src="../cordova.js"></script>
 
 </head>
 <body>
 
-<div  style="position: absolute;top: 40px">
+<div style="position: absolute;top: 40px">
 
-    <button onclick="createPath()">创建路径</button>
-    <button onclick="startR()">开始录音</button>
+    <input type="button" onclick="statRecorder()" value="开始录音">
+    <input type="button" onclick="stopRecorder()" value="结束录音">
+
+    <input type="button" onclick="initMedia()" value="初始化">
+    <input type="button" onclick="playMedia()" value="播放">
+    <input type="button" onclick="pauseMedia()" value="暂停">
+
+    <input type="button" onclick="mediaTime()" value="获取时长">
+    <input type="button" onclick="mediaRealse()" value="释放资源">
 
     <input type=”button” name=”Submit” onclick="javascript:history.back(-1);" value=”返回上一页”>
 
 </div>
 
 <script>
-
     var my_media;
-    //创建路径
-    function createPath() {
 
-        my_media = new Media('cdvfile://localhost/temporary/recording.mp3', function success() {
-            console.log('路径创建成功');
-        });
+    function initMedia() {
+
+        my_media = new Media(
+                "recording.wav",
+                function() {
+                    alert("Media Init Success");
+                },
+                function(err) {
+                    alert("Error: " + err.toString());
+                }
+        );
+    }
+
+    //开始播放
+    function playMedia() {
+
+        my_media.play();
+    }
+
+    //暂停播放
+    function pauseMedia() {
+
+        my_media.pause();
 
     }
 
     //开始录音
-    function startR() {
+    var recordMedia;
+    function statRecorder() {
+
+        recordMedia = new Media(
+                'recording.wav',
+                function() {
+                    alert("Success");
+                },
+                function(e) {
+                    alert("Error" + e.valueOf().toString());
+                }
+        );
+
+        // 开始录音
+        recordMedia.startRecord();
 
     }
+
+    //结束录音
+    function stopRecorder() {
+
+        recordMedia.stopRecord();
+
+    }
+
+    //获取时长
+    function mediaTime() {
+
+        var duration = my_media.getDuration();
+
+        alert("时长 ="+duration);
+    }
+
+    //释放多媒体资源
+    function mediaRealse() {
+        my_media.release();
+
+    }
+
 </script>
 </body>
 </html>

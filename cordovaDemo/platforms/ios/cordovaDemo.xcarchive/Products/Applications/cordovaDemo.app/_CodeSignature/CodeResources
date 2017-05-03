@@ -4,6 +4,26 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AlipaySDK.bundle/bar@2x.png</key>
+		<data>
+		ENmQmLXuSOxBy844XKkdTedcv2Y=
+		</data>
+		<key>AlipaySDK.bundle/refresh@2x.png</key>
+		<data>
+		MrXCB0ZUwnx4+zfw1X2jzlNdDc4=
+		</data>
+		<key>AlipaySDK.bundle/refresh_click@2x.png</key>
+		<data>
+		Q5O/60AWCbG5LfvVC3+guPjpeFs=
+		</data>
+		<key>AlipaySDK.bundle/shutdown@2x.png</key>
+		<data>
+		Z3Jf5aw1lVPaKemSw8qXPabBLcw=
+		</data>
+		<key>AlipaySDK.bundle/shutdown_click@2x.png</key>
+		<data>
+		v8pstv1HbmoW3gdlKZzSqn31WHY=
+		</data>
 		<key>AppIcon29x29.png</key>
 		<data>
 		kq2SRjYrT/gJ4aeJZV2VJa/KiuI=
@@ -206,7 +226,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		zsGXLomJnM1XOAkicmbzt8m5Fjs=
+		2cxjpdbQVQc2IZkzEdgWUu0MAV8=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -214,7 +234,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		gxixvOVTJ+/gvrP4wNayr1ksIVA=
+		lDTdTHFkED0o7Y2ld/0T1ijjnZo=
 		</data>
 		<key>CDVNotification.bundle/beep.wav</key>
 		<data>
@@ -222,7 +242,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ka1i4qrvQpZdv7THJFxU36bIw0Y=
+		4l26IULHFH3gyA7S71IcEaGsNx8=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -282,7 +302,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		ODBuVSxjBAoEGUG3ORvMYMFqAac=
+		1wCTGNlhPPg+tD3GIXB9XUOMI3s=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -294,11 +314,11 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		CjNQin0V1KAQ3her2fbUchhbcHY=
+		aOKAwZtEd3hdfBOpbNNkHOda2IA=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		SAa369F0yHgrx6pj3f87dCm8x44=
+		UmFf1dV+w5Lltdy0McPdiociBSw=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -314,83 +334,87 @@
 		</data>
 		<key>www/cordova/BatteryStatue.html</key>
 		<data>
-		BLycYD3vH9zKsqBX/zS5mTdMROA=
+		83/HcRyKy5pPzbcFAzMCB9eZeTc=
 		</data>
 		<key>www/cordova/Camera.html</key>
 		<data>
-		GYEYh6oR5Z3O/9hI9KCxzPZShMQ=
+		1zSsdtaevZfM9O/n8wyzQnUOX9U=
 		</data>
 		<key>www/cordova/Device.html</key>
 		<data>
-		hnV3Q5CmM5IDi+k5GjBhlQKvnYs=
+		nisbfI8h9jUpEzgZrCHjJY+utEU=
 		</data>
 		<key>www/cordova/DeviceMotion.html</key>
 		<data>
-		diDVu22MZMU2ExaswYUX9RD4T1U=
+		gM2+vgkMTMn+af6v8JICrg3J5YQ=
 		</data>
 		<key>www/cordova/DeviceOrientation.html</key>
 		<data>
-		6uCQi8rOAvuSrjzn3+L13ZXsICI=
+		36DCAPe3P9K2o2RvYCClhiZSkjY=
 		</data>
 		<key>www/cordova/Dialogs.html</key>
 		<data>
-		qHs5NBTfQEjBRo1w1AgIzlNJRf8=
+		0Qsfgk4MMKgYKWkWQmOhLqoYAzE=
 		</data>
 		<key>www/cordova/File.html</key>
 		<data>
-		IdgauahjPMNLMzP9MauiSFRoMh0=
+		mLDDKkmhkka3DqZ1eoddKFONv64=
+		</data>
+		<key>www/cordova/FileTransfer.html</key>
+		<data>
+		ZH0TxLnyax888XyUvhv30RVzNqk=
 		</data>
 		<key>www/cordova/Geolocation.html</key>
 		<data>
-		hJwStb063MmUFF2C3u7TyOPxTqI=
+		wCdB+kStXmbSXWqLdDCcIbbC1JE=
 		</data>
 		<key>www/cordova/Globalozation.html</key>
 		<data>
-		cEVHMSoAbR2F65gx/OpihWM3P14=
+		PDEXZf0XzsGoIj5tH6Av8ltpyAk=
 		</data>
 		<key>www/cordova/Inappbrowser.html</key>
 		<data>
-		e0FFQL8Dr9Ppv0DwsAJORtAtSzc=
+		W6vLMhUkVcTO0gRqqPxcxbtXOX4=
 		</data>
 		<key>www/cordova/Media.html</key>
 		<data>
-		XIYFlC/aPgZYH/ZDX2TZLwv7Cxo=
+		SKNUMoD5/ED2jOjT0u04bNphfH4=
 		</data>
 		<key>www/cordova/MediaCapture.html</key>
 		<data>
-		jduckzaDvebczVw5mJ8GcnLU3ZQ=
+		i5Fa5XW8HQraWiexKMCbUHnkCdU=
 		</data>
 		<key>www/cordova/NetworkInformation.html</key>
 		<data>
-		ckfsfRMvTAERTj2iVxlBe7goJgI=
+		TnAe96y6U8qfV6gun7XtEb3BG6U=
 		</data>
 		<key>www/cordova/Splashscreen.html</key>
 		<data>
-		JJM6MLWhFJ5RBwwftqwa8WhsstU=
+		1cfBetlADeYTQjMlexv4wRBEKKE=
 		</data>
 		<key>www/cordova/Statusbar.html</key>
 		<data>
-		oCCtPZKAUhtpXYz4Hzxj/Shw544=
+		ZWsrwobFWr1dxdCVo1Xo9c3SI3Y=
 		</data>
 		<key>www/cordova/Vibration.html</key>
 		<data>
-		Wv/AUb+Ugq+7Ji4FlAblKIWpwP4=
+		ys2ycGWZ5ClzECDfpN47A2WQrBQ=
 		</data>
-		<key>www/cordova/Whitelist.html</key>
+		<key>www/cordova/alipay.html</key>
 		<data>
-		7nmWoJmNhENr1ySl/Ik5wLMYgGo=
+		0B9S0R1qeFoQsbLEzDAT17UQ3vM=
 		</data>
 		<key>www/cordova/console.html</key>
 		<data>
-		jnJeFYrapBuBIBncUusldWA29zo=
+		adfRpvOhrBwR/GCYe9CYE6o1b7A=
 		</data>
 		<key>www/cordova/contacts.html</key>
 		<data>
-		avpeiGcT93tVc4nfPqNp0U143uM=
+		5CEYqFkbElW91ABUA3VZi4zVMAs=
 		</data>
 		<key>www/cordova_plugins.js</key>
 		<data>
-		2fkDQd2GCq1EwwxwcF2kZQQ/tuQ=
+		1TO4C8UBIkOMZaeOjTFv8o478SU=
 		</data>
 		<key>www/css/index.css</key>
 		<data>
@@ -402,11 +426,15 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		3xUQ3a1FuddBHzrm/145fP5BsqU=
+		/qQXaIiadCggXuZzpcm3xSJWr1c=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
 		VvGJtlwxe7yThwm8W/ULK665sIQ=
+		</data>
+		<key>www/plugins/com.yoopoon.cordova.plugin.alipay/www/alipay.js</key>
+		<data>
+		6OYoPMb5tFX4T1VgBGgZQzBf0uI=
 		</data>
 		<key>www/plugins/cordova-plugin-battery-status/www/battery.js</key>
 		<data>
@@ -699,6 +727,61 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AlipaySDK.bundle/bar@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ENmQmLXuSOxBy844XKkdTedcv2Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			38AV6Lw9+K+g+t7MHjtEKIJarVILLcTXm0o58ki9C3Q=
+			</data>
+		</dict>
+		<key>AlipaySDK.bundle/refresh@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			MrXCB0ZUwnx4+zfw1X2jzlNdDc4=
+			</data>
+			<key>hash2</key>
+			<data>
+			mR8Iqbh2To/+bYNWFk0IbpoorNfzg31HgUB8v89EphQ=
+			</data>
+		</dict>
+		<key>AlipaySDK.bundle/refresh_click@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Q5O/60AWCbG5LfvVC3+guPjpeFs=
+			</data>
+			<key>hash2</key>
+			<data>
+			qkSv6KIv4z3l+TmK/G5Gms3oYZripYuLCK2rB2rmyhY=
+			</data>
+		</dict>
+		<key>AlipaySDK.bundle/shutdown@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z3Jf5aw1lVPaKemSw8qXPabBLcw=
+			</data>
+			<key>hash2</key>
+			<data>
+			mWjeqq55Ym3S0vhMp13qIXpvbIkaeheRy9CnDbpcqhQ=
+			</data>
+		</dict>
+		<key>AlipaySDK.bundle/shutdown_click@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			v8pstv1HbmoW3gdlKZzSqn31WHY=
+			</data>
+			<key>hash2</key>
+			<data>
+			dE2ndHqk8MuNrgTt2yHONxfP38nq2HUgB4t2jKRl8SI=
+			</data>
+		</dict>
 		<key>AppIcon29x29.png</key>
 		<dict>
 			<key>hash</key>
@@ -1206,11 +1289,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zsGXLomJnM1XOAkicmbzt8m5Fjs=
+			2cxjpdbQVQc2IZkzEdgWUu0MAV8=
 			</data>
 			<key>hash2</key>
 			<data>
-			+0zcW3KuzVgcRJu1XipxX/oxni1j0hes4A4qqInST0U=
+			LwMP6nHnGhQ4HEiwZDNiWop0FZm0NMIrv19GRliE6OQ=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1228,11 +1311,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gxixvOVTJ+/gvrP4wNayr1ksIVA=
+			lDTdTHFkED0o7Y2ld/0T1ijjnZo=
 			</data>
 			<key>hash2</key>
 			<data>
-			opuOMsrlQ2tbjBdmQwgpk02httMF/ObYIgWtC0NN8IQ=
+			q+Ktym8PZsk70xYHt93P1QkMkCOijAk8ZqRBMvJbyK4=
 			</data>
 		</dict>
 		<key>CDVNotification.bundle/beep.wav</key>
@@ -1404,11 +1487,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ODBuVSxjBAoEGUG3ORvMYMFqAac=
+			1wCTGNlhPPg+tD3GIXB9XUOMI3s=
 			</data>
 			<key>hash2</key>
 			<data>
-			OfbUcsqrD89bMmaAi410ubdzvZjMb4gLpEPcJD0T1bs=
+			IgzdnErWdh3DwIQmwMy6LyNgxkHBJcX/MCo9AIQW4zU=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -1426,22 +1509,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CjNQin0V1KAQ3her2fbUchhbcHY=
+			aOKAwZtEd3hdfBOpbNNkHOda2IA=
 			</data>
 			<key>hash2</key>
 			<data>
-			BJyAwySExpuNuwD/hpXo0nhFLRd9ftypsk0SK/nttac=
+			lstdJDrbmUNY1TqYluFxRGGqQUqZi3t4IGz1TW0oofc=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SAa369F0yHgrx6pj3f87dCm8x44=
+			UmFf1dV+w5Lltdy0McPdiociBSw=
 			</data>
 			<key>hash2</key>
 			<data>
-			ILY3+gVIpje1ISQp0a00t8IMa0vSqjUW1q1PiYsBTwo=
+			C0LCWmFx2VfReXUNnOtbt5MMWxveb5dfUmiVJos5ae0=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
@@ -1481,220 +1564,231 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BLycYD3vH9zKsqBX/zS5mTdMROA=
+			83/HcRyKy5pPzbcFAzMCB9eZeTc=
 			</data>
 			<key>hash2</key>
 			<data>
-			aa/nXR6Q4c7Pnb2y5WRA1Qi1y/xSNtoY2E5K1Lmt2R8=
+			EsqhEpRFJmA7AQA8jDj9NhnuVx0tnONmCWrAh82uuVI=
 			</data>
 		</dict>
 		<key>www/cordova/Camera.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GYEYh6oR5Z3O/9hI9KCxzPZShMQ=
+			1zSsdtaevZfM9O/n8wyzQnUOX9U=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ppxm7BsB8tipgSrbFKbFiq9xEVItm4p0Ror3KxE0Gow=
+			eDGl7nS0akJEBoLL49dTiLQfkAB+aAnRmEn7wE3HztM=
 			</data>
 		</dict>
 		<key>www/cordova/Device.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hnV3Q5CmM5IDi+k5GjBhlQKvnYs=
+			nisbfI8h9jUpEzgZrCHjJY+utEU=
 			</data>
 			<key>hash2</key>
 			<data>
-			UE+w66yqwLfiQQ8iPC/SZpixY8UV5IjPfKXOCCNwMqk=
+			rNOKOe8ASgvfx2i9AHolgNCz0OyuT3D7yT3ajozQAPU=
 			</data>
 		</dict>
 		<key>www/cordova/DeviceMotion.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			diDVu22MZMU2ExaswYUX9RD4T1U=
+			gM2+vgkMTMn+af6v8JICrg3J5YQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			zzV7lCNLkn9YRGqXKA5Q3Cn5/NqzvyCYHVZBzP3sUDo=
+			B/zSiMkXS+//sRmUuEyVSr8Da/6KY+ypKfZ6c0y3/Uk=
 			</data>
 		</dict>
 		<key>www/cordova/DeviceOrientation.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6uCQi8rOAvuSrjzn3+L13ZXsICI=
+			36DCAPe3P9K2o2RvYCClhiZSkjY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YUgxlxP4Vk0b09DfxrSgLA04zMgBmroyLWu4omgGQg8=
+			+V9je6fpap8LRessKbYigoByfhVj21XBCEqnDl8FdhM=
 			</data>
 		</dict>
 		<key>www/cordova/Dialogs.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qHs5NBTfQEjBRo1w1AgIzlNJRf8=
+			0Qsfgk4MMKgYKWkWQmOhLqoYAzE=
 			</data>
 			<key>hash2</key>
 			<data>
-			wuhVfkdjdP9VM/rMhaiH5YU8oZtpLxKqjJclC3SJdXw=
+			PQ42gF9giuSt+XAnTQh2K4RhOqEQuf8bMs+3oSdnmrk=
 			</data>
 		</dict>
 		<key>www/cordova/File.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IdgauahjPMNLMzP9MauiSFRoMh0=
+			mLDDKkmhkka3DqZ1eoddKFONv64=
 			</data>
 			<key>hash2</key>
 			<data>
-			EgEWwYtpAZddGFidxv4wt1TvmkazKJ+snTO1ogyBKrg=
+			PF+gqZ8KmL7gbxcA/0oin1CXf/Q12oT/oRnYEOypqa0=
+			</data>
+		</dict>
+		<key>www/cordova/FileTransfer.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZH0TxLnyax888XyUvhv30RVzNqk=
+			</data>
+			<key>hash2</key>
+			<data>
+			yApe27zeNesVl9yhw2E+/HOE9P/dp6mzb/31NA2cWsw=
 			</data>
 		</dict>
 		<key>www/cordova/Geolocation.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hJwStb063MmUFF2C3u7TyOPxTqI=
+			wCdB+kStXmbSXWqLdDCcIbbC1JE=
 			</data>
 			<key>hash2</key>
 			<data>
-			59/WbEZP9BZ1bPc/CGz5+6DRXcaZhgvNBCZwvx6Zmak=
+			3b9PrXYHKZLVZJ7Dnw9F8IiEy+qlcuOqDBHyb7Qnq4s=
 			</data>
 		</dict>
 		<key>www/cordova/Globalozation.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cEVHMSoAbR2F65gx/OpihWM3P14=
+			PDEXZf0XzsGoIj5tH6Av8ltpyAk=
 			</data>
 			<key>hash2</key>
 			<data>
-			bC0ZvyGeZc3FpGCdK7e0N9uC70/6tanqsCqs2Fb8JB8=
+			j65dsB+r6wWDVb+54ji0DAP4GnA/+m2KDawSnbbOluQ=
 			</data>
 		</dict>
 		<key>www/cordova/Inappbrowser.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e0FFQL8Dr9Ppv0DwsAJORtAtSzc=
+			W6vLMhUkVcTO0gRqqPxcxbtXOX4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pcsh2HaA4Cv/P38KvAqPTDGPieSk98uqpKDfpehhfsc=
+			gjHfXJT01Mp4KwVZfnIDlxsr3CwotzYgk1YzgK5IOMs=
 			</data>
 		</dict>
 		<key>www/cordova/Media.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XIYFlC/aPgZYH/ZDX2TZLwv7Cxo=
+			SKNUMoD5/ED2jOjT0u04bNphfH4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xudPTjgYgXN75n/qPT8QCfo60GnlJmp0yw4q06tH6qg=
+			Gay4YkT7TOxT8HMgDf7aFd3CtxAJ1JhN1h4/+QcDyf0=
 			</data>
 		</dict>
 		<key>www/cordova/MediaCapture.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jduckzaDvebczVw5mJ8GcnLU3ZQ=
+			i5Fa5XW8HQraWiexKMCbUHnkCdU=
 			</data>
 			<key>hash2</key>
 			<data>
-			eVWy8F2FEo3sJ1Z1f/SaTuysGb0bhYghC4tllkAk+Hk=
+			zQ/T00YSaNxaWwYt5aN7F7qnBCIe5/FkbP0TLPZ0yh4=
 			</data>
 		</dict>
 		<key>www/cordova/NetworkInformation.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ckfsfRMvTAERTj2iVxlBe7goJgI=
+			TnAe96y6U8qfV6gun7XtEb3BG6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			gW1U5lmEWZmYGrrEcHOL8oI3dGeyjwp80u5uNtO5ajg=
+			/rFDn6FkHQ+RPjYSXA+lBQ1a9q+xHtHKKbWJPE242CE=
 			</data>
 		</dict>
 		<key>www/cordova/Splashscreen.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JJM6MLWhFJ5RBwwftqwa8WhsstU=
+			1cfBetlADeYTQjMlexv4wRBEKKE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Od9mXhgmENi48HAgpqg2CCcyCLfziOkEQqQY2RnYZA0=
+			GhSQ5CaNZhgVUpjctrFDdIDD+H/tTiOoxOv/GomQuwc=
 			</data>
 		</dict>
 		<key>www/cordova/Statusbar.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oCCtPZKAUhtpXYz4Hzxj/Shw544=
+			ZWsrwobFWr1dxdCVo1Xo9c3SI3Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			kCStAul1UIp31yGcQonOpqVzVkERCj9NqH8Kjfy3Zv8=
+			qv/pdXRXKBn6VqlpiVsM7wPV/YCiRjPBgy+VndXFyt4=
 			</data>
 		</dict>
 		<key>www/cordova/Vibration.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wv/AUb+Ugq+7Ji4FlAblKIWpwP4=
+			ys2ycGWZ5ClzECDfpN47A2WQrBQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			/YBV9UEUS56ltX+ao/0acG2kJSVIawMhnG3CTpjU3yo=
+			SZiAACTItRFi61h/bmmmGKDwR3NeCrOKrACpo07v2Q0=
 			</data>
 		</dict>
-		<key>www/cordova/Whitelist.html</key>
+		<key>www/cordova/alipay.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7nmWoJmNhENr1ySl/Ik5wLMYgGo=
+			0B9S0R1qeFoQsbLEzDAT17UQ3vM=
 			</data>
 			<key>hash2</key>
 			<data>
-			dVh5yyVfzuh+wWJbNvfYXHlFNWs3bY6BdkE07GWBidE=
+			iARFGUu2BG3DerKUNsYvEIN5/+KNlI9FlDcynks5Vw4=
 			</data>
 		</dict>
 		<key>www/cordova/console.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jnJeFYrapBuBIBncUusldWA29zo=
+			adfRpvOhrBwR/GCYe9CYE6o1b7A=
 			</data>
 			<key>hash2</key>
 			<data>
-			rpL+Mns7PtmnNeYISuDL4IGvdSiK7JLDIfcsfnM7qBU=
+			KS/wp+mDsBVqESTVSqmopZvG1ziKlKkNEtrDBsP5XNA=
 			</data>
 		</dict>
 		<key>www/cordova/contacts.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			avpeiGcT93tVc4nfPqNp0U143uM=
+			5CEYqFkbElW91ABUA3VZi4zVMAs=
 			</data>
 			<key>hash2</key>
 			<data>
-			eQGVt6HOESTA15/70PHjR+FglQTEbKPlgMNtYux6rog=
+			f3yiGIZMlQFOYMwngbxxi/oXExVKp6ZGNR3OIMlT2cE=
 			</data>
 		</dict>
 		<key>www/cordova_plugins.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2fkDQd2GCq1EwwxwcF2kZQQ/tuQ=
+			1TO4C8UBIkOMZaeOjTFv8o478SU=
 			</data>
 			<key>hash2</key>
 			<data>
-			fZ8MhPnL95YNX0eCw8N3o2yn8yFqIg6xw/glQvdl+qs=
+			hv9baAGgH4wN8qnB2D0UOXsXZ5OnLpHbMe+hIfOI2nk=
 			</data>
 		</dict>
 		<key>www/css/index.css</key>
@@ -1723,11 +1817,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3xUQ3a1FuddBHzrm/145fP5BsqU=
+			/qQXaIiadCggXuZzpcm3xSJWr1c=
 			</data>
 			<key>hash2</key>
 			<data>
-			lj+RPvvci3ppHO41IObntrl7YY/CTlAICdpxTSfXArE=
+			4g1sFOrWctzTlLUraQ1CM4iSQJPat13ZrdGxlQh6vac=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
@@ -1739,6 +1833,17 @@
 			<key>hash2</key>
 			<data>
 			shx4WO5iFkV9duAxUT81Zp+LfaixN2PdjQT2qsZzkQw=
+			</data>
+		</dict>
+		<key>www/plugins/com.yoopoon.cordova.plugin.alipay/www/alipay.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6OYoPMb5tFX4T1VgBGgZQzBf0uI=
+			</data>
+			<key>hash2</key>
+			<data>
+			cBJQYbyYZBfGUOcZduMCgyhL6SlOH/82ylh96CWRCOU=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-battery-status/www/battery.js</key>
