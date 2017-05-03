@@ -51,7 +51,7 @@
         // _commandQueue = [[MainCommandQueue alloc] initWithViewController:self];
         
         //存放HTML页的文件夹位置
-        self.wwwFolderName = @"www/cordova";
+//        self.wwwFolderName = @"www/cordova";
 
         //控制台输出
 //        self.startPage = @"console.html";
@@ -81,7 +81,7 @@
 //        self.startPage =  @"File.html";
         
         //文件上传
-        self.startPage = @"FileTransfer.html";
+//        self.startPage = @"FileTransfer.html";
         
         //多媒体
 //        self.startPage = @"Media.html";

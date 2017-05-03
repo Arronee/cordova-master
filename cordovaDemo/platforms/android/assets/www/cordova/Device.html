@@ -17,7 +17,15 @@
 <script>
 
     function Device() {
-       console.log('输出：'+device.cordova);
+        console.log('cordova的版本：'+device.cordova);
+        console.log('运行设备信息'+device.model);
+        console.log('设备操作系统的名字'+device.platform);
+        console.log('设备的唯一标识符'+device.uuid);
+        console.log('设备操作系统的版本'+device.version);
+        console.log('设备的制造商'+device.manufacturer);
+        console.log('是否在模拟器上运行'+device.isVirtual);
+        console.log('设备的序列号'+device.serial);
+
     }
 </script>
 </body>

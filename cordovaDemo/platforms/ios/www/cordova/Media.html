@@ -10,11 +10,29 @@
 
 <div  style="position: absolute;top: 40px">
 
+    <button onclick="createPath()">创建路径</button>
+    <button onclick="startR()">开始录音</button>
+
+    <input type=”button” name=”Submit” onclick="javascript:history.back(-1);" value=”返回上一页”>
+
 </div>
 
 <script>
 
+    var my_media;
+    //创建路径
+    function createPath() {
 
+        my_media = new Media('cdvfile://localhost/temporary/recording.mp3', function success() {
+            console.log('路径创建成功');
+        });
+
+    }
+
+    //开始录音
+    function startR() {
+
+    }
 </script>
 </body>
 </html>
