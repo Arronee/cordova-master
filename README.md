@@ -1,6 +1,6 @@
 # cordova-master
 cordova插件
-主要包括两个方面：
+主要包括两个方面：<br>
 一：cordova基础插件	
 1.	cordova插件-Battery Statue	
 2.	cordova插件- Console	
@@ -21,7 +21,7 @@ cordova插件
 19.	cordova插件- Splashscreen	
 20.	cordova插件- Vibration	
 21.	cordova插件- Statusbar	
-22.	cordova插件- Whitelist(仅安卓)	
-二：cordova三方插件	
-1.cordova插件—支付宝	
-2.cordova插件-微信	
+22.	cordova插件- Whitelist(仅安卓) <br>
+二：cordova三方插件<br>
+1.cordova插件—支付宝<br>
+2.cordova插件-微信<br>	
