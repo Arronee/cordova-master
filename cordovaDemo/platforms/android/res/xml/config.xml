@@ -86,4 +86,8 @@
         <param name="android-package" value="com.yoopoon.cordova.plugin.alipay.Alipay" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="Wechat">
+        <param name="android-package" value="xu.li.cordova.wechat.Wechat" />
+    </feature>
+    <preference name="WECHATAPPID" value="wx0a5324770d13b2d3" />
 </widget>

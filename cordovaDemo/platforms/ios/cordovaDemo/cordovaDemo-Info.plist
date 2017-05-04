@@ -38,6 +38,14 @@
           <string>alipaycordova</string>
         </array>
       </dict>
+      <dict>
+        <key>CFBundleURLName</key>
+        <string>weixin</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>wx0a5324770d13b2d3</string>
+        </array>
+      </dict>
     </array>
     <key>CFBundleVersion</key>
     <string>1.0.0</string>
@@ -46,6 +54,7 @@
       <string>safepay</string>
       <string>alipay</string>
       <string>weixin</string>
+      <string>wechat</string>
     </array>
     <key>LSRequiresIPhoneOS</key>
     <true/>

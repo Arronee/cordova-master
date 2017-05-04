@@ -99,6 +99,14 @@
                         {
                             "xml": "<feature name=\"Alipay\"><param name=\"ios-package\" value=\"CDVAlipay\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Wechat\"><param name=\"ios-package\" value=\"CDVWechat\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<preference name=\"WECHATAPPID\" value=\"wx0a5324770d13b2d3\" />",
+                            "count": 1
                         }
                     ]
                 }
@@ -143,6 +151,10 @@
                         {
                             "xml": "<array><dict><key>CFBundleTypeRole</key><string>Editor</string><key>CFBundleURLIconFile</key><string>icon-50@2x</string><key>CFBundleURLName</key><string>alipaycordova</string><key>CFBundleURLSchemes</key><array><string>alipaycordova</string></array></dict></array>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<array><dict><key>CFBundleURLName</key><string>weixin</string><key>CFBundleURLSchemes</key><array><string>wx0a5324770d13b2d3</string></array></dict></array>",
+                            "count": 1
                         }
                     ],
                     "CFBundleDevelopmentRegion": [
@@ -154,12 +166,16 @@
                     "NSAppTransportSecurity": [
                         {
                             "xml": "<dict><key>NSAllowsArbitraryLoads</key><true /></dict>",
-                            "count": 1
+                            "count": 2
                         }
                     ],
                     "LSApplicationQueriesSchemes": [
                         {
                             "xml": "<array><string>safepay</string><string>alipay</string><string>weixin</string></array>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<array><string>weixin</string><string>wechat</string></array>",
                             "count": 1
                         }
                     ]
@@ -240,6 +256,10 @@
             "PACKAGE_NAME": "com.roc.cordovaDemo"
         },
         "com.yoopoon.cordova.plugin.alipay": {
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-wechat": {
+            "WECHATAPPID": "wx0a5324770d13b2d3",
             "PACKAGE_NAME": "com.roc.cordovaDemo"
         }
     },
@@ -823,6 +843,14 @@
             "clobbers": [
                 "navigator.alipay"
             ]
+        },
+        {
+            "id": "cordova-plugin-wechat.Wechat",
+            "file": "plugins/cordova-plugin-wechat/www/wechat.js",
+            "pluginId": "cordova-plugin-wechat",
+            "clobbers": [
+                "Wechat"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -847,6 +875,7 @@
         "cordova-plugin-splashscreen": "4.0.2",
         "cordova-plugin-vibration": "2.1.4",
         "cordova-plugin-statusbar": "2.2.2",
-        "com.yoopoon.cordova.plugin.alipay": "5.3.0"
+        "com.yoopoon.cordova.plugin.alipay": "5.3.0",
+        "cordova-plugin-wechat": "1.4.0"
     }
 }

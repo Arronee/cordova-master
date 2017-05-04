@@ -69,6 +69,10 @@
         },
         "com.yoopoon.cordova.plugin.alipay": {
             "PACKAGE_NAME": "com.roc.cordovaDemo"
+        },
+        "cordova-plugin-wechat": {
+            "WECHATAPPID": "wx0a5324770d13b2d3",
+            "PACKAGE_NAME": "com.roc.cordovaDemo"
         }
     },
     "dependent_plugins": {

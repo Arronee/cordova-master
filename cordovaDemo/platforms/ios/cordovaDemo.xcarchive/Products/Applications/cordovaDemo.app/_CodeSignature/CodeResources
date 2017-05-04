@@ -226,7 +226,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		rJ8zqrK39Ka2EzH3e/BwgcA7wsk=
+		7qW2+63g9sONM9UO0qGqV6fZhw0=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		fohxy8Qaq6ps4+XmZ7EUHcSw7nU=
+		bbRN3SzabrhYXXLDflaZksIvvXQ=
 		</data>
 		<key>CDVNotification.bundle/beep.wav</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4l26IULHFH3gyA7S71IcEaGsNx8=
+		XaECaLianOlwMhmzAf+p7q7FcBc=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -302,7 +302,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		OZCEmsLHvE114WKSzb4kAE70P/4=
+		MbdCuHE6xekPWFSoC7jgWKAs8yE=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -314,7 +314,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		zrdKj7Dcszf+RLfAlu8bwQqToEc=
+		Zz+USUYnQ0wCTCfbSiOtCS7t3OA=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -362,7 +362,7 @@
 		</data>
 		<key>www/cordova/FileTransfer.html</key>
 		<data>
-		3AA/mw0P28pN2sIyNEr/y+umQbE=
+		i8yiLiEXxVai6t9L1xfGKuQu8Sg=
 		</data>
 		<key>www/cordova/Geolocation.html</key>
 		<data>
@@ -390,7 +390,7 @@
 		</data>
 		<key>www/cordova/Splashscreen.html</key>
 		<data>
-		dZYqGLwgWfTrSh9yftVzIAbh/60=
+		BUEEYM0NWWXQp5aUwqbb6PHRyXQ=
 		</data>
 		<key>www/cordova/Statusbar.html</key>
 		<data>
@@ -412,9 +412,13 @@
 		<data>
 		xbAAoZGK4Q2FPLtoSEYDnfY/NdQ=
 		</data>
+		<key>www/cordova/wechat.html</key>
+		<data>
+		iNz2G0eBQcgilwaYNvTZEnL67h8=
+		</data>
 		<key>www/cordova_plugins.js</key>
 		<data>
-		1TO4C8UBIkOMZaeOjTFv8o478SU=
+		VnJH9YjKHLvCliaaKwMPpQT3r8E=
 		</data>
 		<key>www/css/index.css</key>
 		<data>
@@ -426,7 +430,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		qkU9BooNg+yy18Cwk/gKi9WkMHc=
+		5Ufzh1mSFuWRIrkB3ZhUP3jTRuI=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
@@ -723,6 +727,10 @@
 		<key>www/plugins/cordova-plugin-vibration/www/vibration.js</key>
 		<data>
 		lFje6IQ4oa5C5oIguQhHxwiPqmk=
+		</data>
+		<key>www/plugins/cordova-plugin-wechat/www/wechat.js</key>
+		<data>
+		rFOpCmCSeRVtiuyGWPC6wgH6HYY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1289,11 +1297,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rJ8zqrK39Ka2EzH3e/BwgcA7wsk=
+			7qW2+63g9sONM9UO0qGqV6fZhw0=
 			</data>
 			<key>hash2</key>
 			<data>
-			nreoew7oTrAnBNj6CFMQj3BAknucDemaC5Mk0IotFPE=
+			p6jJvJMLCS8yH0jTf/CEuOcYkJ446HNaNAT0D+qCbBs=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1311,11 +1319,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fohxy8Qaq6ps4+XmZ7EUHcSw7nU=
+			bbRN3SzabrhYXXLDflaZksIvvXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			2SgjDTC0v3cUVgq13JAQUsE36JXCb0jDxgRyBmvD6y8=
+			nN5KiZMPQsknoYbm+2bWsX6AabdAO48jhd2n3mqhkWw=
 			</data>
 		</dict>
 		<key>CDVNotification.bundle/beep.wav</key>
@@ -1487,11 +1495,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OZCEmsLHvE114WKSzb4kAE70P/4=
+			MbdCuHE6xekPWFSoC7jgWKAs8yE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZFsP1nc3qb12l/IJP8IaxE1bxNHPb+CLIeh8djoxg+s=
+			cbgkvh2EYGtl9puIpRjK0tsaBZhBCCjQdGXBMt6Xzss=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -1509,11 +1517,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zrdKj7Dcszf+RLfAlu8bwQqToEc=
+			Zz+USUYnQ0wCTCfbSiOtCS7t3OA=
 			</data>
 			<key>hash2</key>
 			<data>
-			c+mJ6uB6FmIqHldw5H2PxDbIHTxIjUysIUgdlw69/kg=
+			0TTGkOuRpin6nMqildWFY10mvVtoIDZsNAxUwm1VrpY=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -1641,11 +1649,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3AA/mw0P28pN2sIyNEr/y+umQbE=
+			i8yiLiEXxVai6t9L1xfGKuQu8Sg=
 			</data>
 			<key>hash2</key>
 			<data>
-			dFY3zaIYHEzHlv74vGAmToJ4Fox8REJYJDchCVRCKSY=
+			txurU/PDdl+p0tR7RVZRFHR3mAmvxkPoOuEnxbwjWLs=
 			</data>
 		</dict>
 		<key>www/cordova/Geolocation.html</key>
@@ -1718,11 +1726,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dZYqGLwgWfTrSh9yftVzIAbh/60=
+			BUEEYM0NWWXQp5aUwqbb6PHRyXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			rzQQH80gfq3sMrP8u0ngOrldJtmMzccmApO9hBLjMp4=
+			G93PhGEqo1OXm4hy85NG+u9xYw0TL70eP+H4sA7i5BI=
 			</data>
 		</dict>
 		<key>www/cordova/Statusbar.html</key>
@@ -1780,15 +1788,26 @@
 			aw12DsQq5xtXyzsze00PX9aqFOxs9+QsuowSzUDRAyo=
 			</data>
 		</dict>
+		<key>www/cordova/wechat.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iNz2G0eBQcgilwaYNvTZEnL67h8=
+			</data>
+			<key>hash2</key>
+			<data>
+			hLx0oQY9j+ScSW/zT0D7fTDtZVPMKsjqS5S3V42kwJA=
+			</data>
+		</dict>
 		<key>www/cordova_plugins.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1TO4C8UBIkOMZaeOjTFv8o478SU=
+			VnJH9YjKHLvCliaaKwMPpQT3r8E=
 			</data>
 			<key>hash2</key>
 			<data>
-			hv9baAGgH4wN8qnB2D0UOXsXZ5OnLpHbMe+hIfOI2nk=
+			qxJYyqeCYd/Q2IrgTJgHEb15CAwlY25a+4xvWJPlHYk=
 			</data>
 		</dict>
 		<key>www/css/index.css</key>
@@ -1817,11 +1836,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qkU9BooNg+yy18Cwk/gKi9WkMHc=
+			5Ufzh1mSFuWRIrkB3ZhUP3jTRuI=
 			</data>
 			<key>hash2</key>
 			<data>
-			u5RxXjAiMnyvLpMDL5/dRYd8foF7I55OSAbiemfSelU=
+			i3cxbbiLrThv2K0KdiahTaWz4lD4mQiPtYyLpRbpvd8=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
@@ -2636,6 +2655,17 @@
 			<key>hash2</key>
 			<data>
 			Q92y26QZHIpZV7qoa9Fp3/6CrusGlYeQ5NoBO0W6k1w=
+			</data>
+		</dict>
+		<key>www/plugins/cordova-plugin-wechat/www/wechat.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rFOpCmCSeRVtiuyGWPC6wgH6HYY=
+			</data>
+			<key>hash2</key>
+			<data>
+			NhEpybDFqo8upz6/Qu0s0G9Od8txJDuw1cH8s1cxO1Y=
 			</data>
 		</dict>
 	</dict>

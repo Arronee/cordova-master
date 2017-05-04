@@ -70,6 +70,10 @@
 		F64650E5B4D046DEBCCCE4ED /* CDVAlipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E361B215F8C4E2883107E8A /* CDVAlipay.m */; };
 		F7F4B807BBD44DF29CCF5B8E /* CDVCapture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C94C9F68CB9943748A7005CF /* CDVCapture.bundle */; };
 		FD15892BCCB640E78F405F89 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C113D92449146DBB81DCD73 /* CDVLocation.m */; };
+		BACA941A73974573B0701331 /* CDVWechat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F52C6EC654055B9E0C080 /* CDVWechat.m */; };
+		DE1ACBD0906948A784D93731 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB288B2960E74F1EA11AC2E3 /* libWeChatSDK.a */; };
+		8D2B5CEA14634BA78C571B10 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C7176DB47042A082F10CCD /* CFNetwork.framework */; };
+		FCCC6853B7FF426C8ADBE355 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7187C9FF312547E58B927E5B /* libstdc++.6.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -280,6 +284,13 @@
 		FDA4591F7ACE4E33B226C957 /* CDVLocalFilesystem.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocalFilesystem.h; path = "cordova-plugin-file/CDVLocalFilesystem.h"; sourceTree = "<group>"; };
 		FEE0F6DC800B47AA9922CAE5 /* CDVNotification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVNotification.h; path = "cordova-plugin-dialogs/CDVNotification.h"; sourceTree = "<group>"; };
 		FF71FE7AB9504AFF93F79885 /* RSADataVerifier.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = RSADataVerifier.h; path = com.yoopoon.cordova.plugin.alipay/RSADataVerifier.h; sourceTree = "<group>"; };
+		7D6F52C6EC654055B9E0C080 /* CDVWechat.m */ = {isa = PBXFileReference; name = "CDVWechat.m"; path = "cordova-plugin-wechat/CDVWechat.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		BB288B2960E74F1EA11AC2E3 /* libWeChatSDK.a */ = {isa = PBXFileReference; name = "libWeChatSDK.a"; path = "cordovaDemo/Plugins/cordova-plugin-wechat/libWeChatSDK.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		8624BB7570054DCB861ADC24 /* CDVWechat.h */ = {isa = PBXFileReference; name = "CDVWechat.h"; path = "cordova-plugin-wechat/CDVWechat.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		571C13902F3B4221A9D6445C /* WXApi.h */ = {isa = PBXFileReference; name = "WXApi.h"; path = "cordova-plugin-wechat/WXApi.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		6874790FE6634558BE834340 /* WXApiObject.h */ = {isa = PBXFileReference; name = "WXApiObject.h"; path = "cordova-plugin-wechat/WXApiObject.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		C2C7176DB47042A082F10CCD /* CFNetwork.framework */ = {isa = PBXFileReference; name = "CFNetwork.framework"; path = "System/Library/Frameworks/CFNetwork.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		7187C9FF312547E58B927E5B /* libstdc++.6.tbd */ = {isa = PBXFileReference; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +317,9 @@
 				A07C4E235E4540CD8352D56B /* libstdc++.6.0.9.tbd in Frameworks */,
 				46600FC5BD734832BE323CBF /* libc++.tbd in Frameworks */,
 				039F68BDBBE043878DE390FC /* AlipaySDK.framework in Frameworks */,
+				DE1ACBD0906948A784D93731 /* libWeChatSDK.a in Frameworks */,
+				8D2B5CEA14634BA78C571B10 /* CFNetwork.framework in Frameworks */,
+				FCCC6853B7FF426C8ADBE355 /* libstdc++.6.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +411,9 @@
 				B8771BAFB3A1408A9AE3FEFE /* libstdc++.6.0.9.tbd */,
 				F7F8FE43B85C443C8C9D87C6 /* libc++.tbd */,
 				1C9227CA9C844CE4BAA4B899 /* AlipaySDK.framework */,
+				BB288B2960E74F1EA11AC2E3 /* libWeChatSDK.a */,
+				C2C7176DB47042A082F10CCD /* CFNetwork.framework */,
+				7187C9FF312547E58B927E5B /* libstdc++.6.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -571,6 +588,10 @@
 				47F3908D93224E07858E8E58 /* openssl_wrapper.h */,
 				AD70525335734D3498AD57E0 /* RSADataSigner.h */,
 				FF71FE7AB9504AFF93F79885 /* RSADataVerifier.h */,
+				7D6F52C6EC654055B9E0C080 /* CDVWechat.m */,
+				8624BB7570054DCB861ADC24 /* CDVWechat.h */,
+				571C13902F3B4221A9D6445C /* WXApi.h */,
+				6874790FE6634558BE834340 /* WXApiObject.h */,
 			);
 			name = Plugins;
 			path = cordovaDemo/Plugins;
@@ -735,6 +756,7 @@
 				1621CBD593574D2E80BDA74D /* openssl_wrapper.m in Sources */,
 				BAB8F9A4A8D0410D8BF7DC7F /* RSADataSigner.m in Sources */,
 				1279E82E84944EB29406A054 /* RSADataVerifier.m in Sources */,
+				BACA941A73974573B0701331 /* CDVWechat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -777,6 +799,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay\"",
 					"\"$(SRCROOT)/cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay\"",
+					"\"$(SRCROOT)/cordovaDemo/Plugins/cordova-plugin-wechat\"",
 				);
 				PRODUCT_NAME = cordovaDemo;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -809,6 +832,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay\"",
 					"\"$(SRCROOT)/cordovaDemo/Plugins/com.yoopoon.cordova.plugin.alipay\"",
+					"\"$(SRCROOT)/cordovaDemo/Plugins/cordova-plugin-wechat\"",
 				);
 				PRODUCT_NAME = cordovaDemo;
 				TARGETED_DEVICE_FAMILY = "1,2";

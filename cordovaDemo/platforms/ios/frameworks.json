@@ -5,13 +5,15 @@
     "CoreLocation.framework": 3,
     "AVFoundation.framework": 1,
     "AudioToolbox.framework": 2,
-    "libz.tbd": 2,
+    "libz.tbd": 3,
     "CoreMotion.framework": 2,
-    "SystemConfiguration.framework": 2,
-    "CoreTelephony.framework": 2,
-    "libsqlite3.0.tbd": 1,
+    "SystemConfiguration.framework": 3,
+    "CoreTelephony.framework": 3,
+    "libsqlite3.0.tbd": 2,
     "libz.1.2.5.tbd": 1,
-    "Security.framework": 1,
+    "Security.framework": 2,
     "libstdc++.6.0.9.tbd": 1,
-    "libc++.tbd": 1
+    "libc++.tbd": 1,
+    "CFNetwork.framework": 1,
+    "libstdc++.6.tbd": 1
 }

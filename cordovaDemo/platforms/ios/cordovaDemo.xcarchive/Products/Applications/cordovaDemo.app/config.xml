@@ -79,6 +79,10 @@
         <param name="ios-package" value="CDVAlipay" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="Wechat">
+        <param name="ios-package" value="CDVWechat" />
+        <param name="onload" value="true" />
+    </feature>
     <name>cordovaDemo</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -116,6 +120,7 @@
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
     <preference name="CameraUsesGeolocation" value="false" />
+    <preference name="WECHATAPPID" value="wx0a5324770d13b2d3" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
     <preference name="StatusBarStyle" value="lightcontent" />
     <preference name="StatusBarOverlaysWebView" value="true" />
