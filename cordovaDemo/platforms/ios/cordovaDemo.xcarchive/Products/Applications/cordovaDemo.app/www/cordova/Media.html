@@ -58,12 +58,17 @@
     function statRecorder() {
 
         recordMedia = new Media(
-                'recording.wav',
+                'cordova.file.cordova.recording.wav',
                 function() {
                     alert("Success");
                 },
                 function(e) {
-                    alert("Error" + e.valueOf().toString());
+
+                    var jStr ='';
+                    for(var item in e){
+                        jStr += "'"+item+"':'"+e[item]+"',";
+                    }
+                    alert("Error" + jStr);
                 }
         );
 

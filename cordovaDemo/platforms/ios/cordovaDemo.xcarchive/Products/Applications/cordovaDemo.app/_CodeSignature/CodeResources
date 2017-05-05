@@ -226,7 +226,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		7qW2+63g9sONM9UO0qGqV6fZhw0=
+		fIm0RzoQtHUAZq7yi+5Zo8S49FE=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		bbRN3SzabrhYXXLDflaZksIvvXQ=
+		dyR8e/5yJszdMh/l7bFqlZa1lic=
 		</data>
 		<key>CDVNotification.bundle/beep.wav</key>
 		<data>
@@ -302,7 +302,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		MbdCuHE6xekPWFSoC7jgWKAs8yE=
+		i6Vm6oYfoMByQrKneL2kmdr0fVw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -378,7 +378,7 @@
 		</data>
 		<key>www/cordova/Media.html</key>
 		<data>
-		r9/rI0oK0WmThwwcwCoUKl0X6c8=
+		dcdXi2dY3xRJIiEX/9lBDrG3m2Q=
 		</data>
 		<key>www/cordova/MediaCapture.html</key>
 		<data>
@@ -1297,11 +1297,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7qW2+63g9sONM9UO0qGqV6fZhw0=
+			fIm0RzoQtHUAZq7yi+5Zo8S49FE=
 			</data>
 			<key>hash2</key>
 			<data>
-			p6jJvJMLCS8yH0jTf/CEuOcYkJ446HNaNAT0D+qCbBs=
+			nn6xCcGjaPTHmfGTcwcQP7G1JNtuHT8xAP06qpSMN64=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1319,11 +1319,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bbRN3SzabrhYXXLDflaZksIvvXQ=
+			dyR8e/5yJszdMh/l7bFqlZa1lic=
 			</data>
 			<key>hash2</key>
 			<data>
-			nN5KiZMPQsknoYbm+2bWsX6AabdAO48jhd2n3mqhkWw=
+			MOf1FycwknlTh8HOD3uSf4aSpO/yge5zWVE0qUcqUyo=
 			</data>
 		</dict>
 		<key>CDVNotification.bundle/beep.wav</key>
@@ -1495,11 +1495,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MbdCuHE6xekPWFSoC7jgWKAs8yE=
+			i6Vm6oYfoMByQrKneL2kmdr0fVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			cbgkvh2EYGtl9puIpRjK0tsaBZhBCCjQdGXBMt6Xzss=
+			JyyDORCcj45sValvRRhbHVZXOGDUmFO14EPwSwPip6Y=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -1693,11 +1693,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r9/rI0oK0WmThwwcwCoUKl0X6c8=
+			dcdXi2dY3xRJIiEX/9lBDrG3m2Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			eRxarSl8qiaQchi5U+0n6RSOdeC+HFx0zarf3L/zjUg=
+			jvwhgfzpWNj7fjRT/iURamrsfMvaTS/W/JA/eEk2KSw=
 			</data>
 		</dict>
 		<key>www/cordova/MediaCapture.html</key>
